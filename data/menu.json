@@ -1,0 +1,2193 @@
+{
+  "source": "https://clockcoffee.clopos.menu/az/1/products",
+  "fetchedAt": "2026-09-29T19:16:52.887Z",
+  "currency": "₼",
+  "brand": {
+    "name": "Clock & Coffee",
+    "address": "Abbas Səhhət 45 Bakı, Azərbaycan",
+    "phone": "+994504157207",
+    "logo": "https://cdn.clopos.com/clockcoffee/e3500870-ce5a-4029-92e8-8174d28c667e/original.jpg"
+  },
+  "sections": [
+    {
+      "key": "breakfast",
+      "title": "Səhər yeməyi",
+      "note": "08:00-12:00",
+      "items": [
+        {
+          "id": 903,
+          "name": "Breakfast Set",
+          "desc": "",
+          "kcal": null,
+          "timer": 5.79,
+          "regular": 14,
+          "img": {
+            "card": "https://cdn-2.clopos.com/clockcoffee/ad9581b6-6508-4447-a309-92e4c65d44f0/card43@2x.webp",
+            "cardJpg": "https://cdn-2.clopos.com/clockcoffee/ad9581b6-6508-4447-a309-92e4c65d44f0/card43@2x.jpg",
+            "large": "https://cdn.clopos.com/clockcoffee/ad9581b6-6508-4447-a309-92e4c65d44f0/extra_large.jpg",
+            "thumb": "https://cdn.clopos.com/clockcoffee/ad9581b6-6508-4447-a309-92e4c65d44f0/thumb.jpg",
+            "w": 1080,
+            "h": 1350,
+            "blurHash": "LmRfXxRP%gtRtRfkaeWB_4tQMxV@"
+          }
+        },
+        {
+          "id": 904,
+          "name": "Salmon Breakfast Panini",
+          "desc": "",
+          "kcal": null,
+          "timer": 6.81,
+          "regular": 15,
+          "img": {
+            "card": "https://cdn-2.clopos.com/clockcoffee/3733b8c4-97cf-4059-975e-e979ba23e3a0/card43@2x.webp",
+            "cardJpg": "https://cdn-2.clopos.com/clockcoffee/3733b8c4-97cf-4059-975e-e979ba23e3a0/card43@2x.jpg",
+            "large": "https://cdn.clopos.com/clockcoffee/3733b8c4-97cf-4059-975e-e979ba23e3a0/extra_large.jpg",
+            "thumb": "https://cdn.clopos.com/clockcoffee/3733b8c4-97cf-4059-975e-e979ba23e3a0/thumb.jpg",
+            "w": 1080,
+            "h": 1350,
+            "blurHash": "LxQm3QkC%gj@t7ayWBj[_NjZROay"
+          }
+        }
+      ]
+    },
+    {
+      "key": "soup",
+      "title": "Soup",
+      "note": null,
+      "items": [
+        {
+          "id": 908,
+          "name": "Lentil Soup",
+          "desc": "",
+          "kcal": null,
+          "timer": 0.61,
+          "regular": 4,
+          "img": {
+            "card": "https://cdn-2.clopos.com/clockcoffee/04a2bbfc-f233-4293-89b9-51e3af97bfdf/card43@2x.webp",
+            "cardJpg": "https://cdn-2.clopos.com/clockcoffee/04a2bbfc-f233-4293-89b9-51e3af97bfdf/card43@2x.jpg",
+            "large": "https://cdn.clopos.com/clockcoffee/04a2bbfc-f233-4293-89b9-51e3af97bfdf/extra_large.jpg",
+            "thumb": "https://cdn.clopos.com/clockcoffee/04a2bbfc-f233-4293-89b9-51e3af97bfdf/thumb.jpg",
+            "w": 1080,
+            "h": 1350,
+            "blurHash": "LjR:4%j[%gofxuj[WBWB?wWBMwoJ"
+          }
+        },
+        {
+          "id": 909,
+          "name": "Mushroom soup",
+          "desc": "",
+          "kcal": null,
+          "timer": 2.58,
+          "regular": 5,
+          "img": {
+            "card": "https://cdn-2.clopos.com/clockcoffee/8bc1f3fd-627e-4181-913c-7d7e99ad9ada/card43@2x.webp",
+            "cardJpg": "https://cdn-2.clopos.com/clockcoffee/8bc1f3fd-627e-4181-913c-7d7e99ad9ada/card43@2x.jpg",
+            "large": "https://cdn.clopos.com/clockcoffee/8bc1f3fd-627e-4181-913c-7d7e99ad9ada/extra_large.jpg",
+            "thumb": "https://cdn.clopos.com/clockcoffee/8bc1f3fd-627e-4181-913c-7d7e99ad9ada/thumb.jpg",
+            "w": 1080,
+            "h": 1350,
+            "blurHash": "LfRyjGa}%gs:xuofWBWB_NaxIUfk"
+          }
+        },
+        {
+          "id": 910,
+          "name": "Tomato Soup",
+          "desc": "",
+          "kcal": null,
+          "timer": 2.51,
+          "regular": 5,
+          "img": {
+            "card": "https://cdn-2.clopos.com/clockcoffee/895bceae-8bd9-4938-b1eb-577b8c165628/card43@2x.webp",
+            "cardJpg": "https://cdn-2.clopos.com/clockcoffee/895bceae-8bd9-4938-b1eb-577b8c165628/card43@2x.jpg",
+            "large": "https://cdn.clopos.com/clockcoffee/895bceae-8bd9-4938-b1eb-577b8c165628/extra_large.jpg",
+            "thumb": "https://cdn.clopos.com/clockcoffee/895bceae-8bd9-4938-b1eb-577b8c165628/thumb.jpg",
+            "w": 1080,
+            "h": 1350,
+            "blurHash": "LnRyZ[af%gozxuj[WBWC?wbHMwe."
+          }
+        }
+      ]
+    },
+    {
+      "key": "pasta",
+      "title": "Pasta",
+      "note": null,
+      "items": [
+        {
+          "id": 911,
+          "name": "Spaghetti Bolognese",
+          "desc": "",
+          "kcal": null,
+          "timer": 5.85,
+          "regular": 14.5,
+          "img": {
+            "card": "https://cdn-2.clopos.com/clockcoffee/44ed8cba-88b0-495c-9e98-ee38dbd20dfd/card43@2x.webp",
+            "cardJpg": "https://cdn-2.clopos.com/clockcoffee/44ed8cba-88b0-495c-9e98-ee38dbd20dfd/card43@2x.jpg",
+            "large": "https://cdn.clopos.com/clockcoffee/44ed8cba-88b0-495c-9e98-ee38dbd20dfd/extra_large.jpg",
+            "thumb": "https://cdn.clopos.com/clockcoffee/44ed8cba-88b0-495c-9e98-ee38dbd20dfd/thumb.jpg",
+            "w": 1080,
+            "h": 1350,
+            "blurHash": "LfRMe.bG-=j[t8a|WBfR~qj[ITa}"
+          }
+        },
+        {
+          "id": 912,
+          "name": "Penne Arrabbiata",
+          "desc": "",
+          "kcal": null,
+          "timer": 2.37,
+          "regular": 13,
+          "img": {
+            "card": "https://cdn-2.clopos.com/clockcoffee/970ceba3-e900-43b4-b4ff-3cb8831474d9/card43@2x.webp",
+            "cardJpg": "https://cdn-2.clopos.com/clockcoffee/970ceba3-e900-43b4-b4ff-3cb8831474d9/card43@2x.jpg",
+            "large": "https://cdn.clopos.com/clockcoffee/970ceba3-e900-43b4-b4ff-3cb8831474d9/extra_large.jpg",
+            "thumb": "https://cdn.clopos.com/clockcoffee/970ceba3-e900-43b4-b4ff-3cb8831474d9/thumb.jpg",
+            "w": 1080,
+            "h": 1350,
+            "blurHash": "LgRMe.kC%hj[xufPWBf7~qayMxa}"
+          }
+        },
+        {
+          "id": 932,
+          "name": "Chicken Pesto Fusilli",
+          "desc": "",
+          "kcal": null,
+          "timer": 3.38,
+          "regular": 14,
+          "img": {
+            "card": "https://cdn-2.clopos.com/clockcoffee/2f4374d4-f8b2-457f-a8f0-3dcfba0aa753/card43@2x.webp",
+            "cardJpg": "https://cdn-2.clopos.com/clockcoffee/2f4374d4-f8b2-457f-a8f0-3dcfba0aa753/card43@2x.jpg",
+            "large": "https://cdn.clopos.com/clockcoffee/2f4374d4-f8b2-457f-a8f0-3dcfba0aa753/extra_large.jpg",
+            "thumb": "https://cdn.clopos.com/clockcoffee/2f4374d4-f8b2-457f-a8f0-3dcfba0aa753/thumb.jpg",
+            "w": 1080,
+            "h": 1350,
+            "blurHash": "LiQ][{j[-=fPxufQWAfQ~XjtITj["
+          }
+        }
+      ]
+    },
+    {
+      "key": "salatlar",
+      "title": "Salatlar",
+      "note": null,
+      "items": [
+        {
+          "id": 188,
+          "name": "Şnitsel salatı",
+          "desc": "Toyuq şnitzel 100qr, salat 30qr, marinad olunmuş kök 30qr, marinad olunmuş kələm 30qr, çeri pomidor 30qr, bal limon sousu 40qr",
+          "kcal": 383,
+          "timer": 4.11,
+          "regular": 12.5,
+          "img": {
+            "card": "https://cdn-2.clopos.com/clockcoffee/8115540a-45f8-4669-aa1e-cf309ba12337/card43@2x.webp",
+            "cardJpg": "https://cdn-2.clopos.com/clockcoffee/8115540a-45f8-4669-aa1e-cf309ba12337/card43@2x.jpg",
+            "large": "https://cdn.clopos.com/clockcoffee/8115540a-45f8-4669-aa1e-cf309ba12337/extra_large.jpg",
+            "thumb": "https://cdn.clopos.com/clockcoffee/8115540a-45f8-4669-aa1e-cf309ba12337/thumb.jpg",
+            "w": 1086,
+            "h": 1448,
+            "blurHash": "LBJGQGyDyX}?0g4:0MM{0$^3DiF2"
+          }
+        },
+        {
+          "id": 189,
+          "name": "Qızıl balıq ilə təzə göyərti salatı",
+          "desc": "Qızılbalıq 70qr, avokado 50qr, salat 25qr, pomidor 15qr, kapers 10qr, bal limon sousu 30ml, marinad olunmuş kök 20qr, marinad olunmuş ağ kələm 20qr, marinad olunmuş qırmızı kələm 20qr",
+          "kcal": 332,
+          "timer": 6.81,
+          "regular": 15,
+          "img": {
+            "card": "https://cdn-2.clopos.com/clockcoffee/8a12c5c7-623b-4d8a-822c-dd791b57fb68/card43@2x.webp",
+            "cardJpg": "https://cdn-2.clopos.com/clockcoffee/8a12c5c7-623b-4d8a-822c-dd791b57fb68/card43@2x.jpg",
+            "large": "https://cdn.clopos.com/clockcoffee/8a12c5c7-623b-4d8a-822c-dd791b57fb68/extra_large.jpg",
+            "thumb": "https://cdn.clopos.com/clockcoffee/8a12c5c7-623b-4d8a-822c-dd791b57fb68/thumb.jpg",
+            "w": 1086,
+            "h": 1448,
+            "blurHash": "L5JZq{%N0@^j0V5Q02vg05~80JXl"
+          }
+        },
+        {
+          "id": 864,
+          "name": "Ceaser salad (Abunə)",
+          "desc": "",
+          "kcal": null,
+          "timer": 3.24,
+          "regular": null,
+          "img": {
+            "card": "https://cdn-2.clopos.com/clockcoffee/76a0bb85-602e-44fb-b0e4-89f3a86b7121/card43@2x.webp",
+            "cardJpg": "https://cdn-2.clopos.com/clockcoffee/76a0bb85-602e-44fb-b0e4-89f3a86b7121/card43@2x.jpg",
+            "large": "https://cdn.clopos.com/clockcoffee/76a0bb85-602e-44fb-b0e4-89f3a86b7121/extra_large.jpg",
+            "thumb": "https://cdn.clopos.com/clockcoffee/76a0bb85-602e-44fb-b0e4-89f3a86b7121/thumb.jpg",
+            "w": 1080,
+            "h": 1350,
+            "blurHash": "LeRfnGof-=axxuayWAa|_4WBITj]"
+          }
+        },
+        {
+          "id": 898,
+          "name": "Crispy Eggplant Salad (Abunə)",
+          "desc": "",
+          "kcal": null,
+          "timer": 2.58,
+          "regular": null,
+          "img": {
+            "card": "https://cdn-2.clopos.com/clockcoffee/e680855c-01ad-41cd-8336-11d06a6bb447/card43@2x.webp",
+            "cardJpg": "https://cdn-2.clopos.com/clockcoffee/e680855c-01ad-41cd-8336-11d06a6bb447/card43@2x.jpg",
+            "large": "https://cdn.clopos.com/clockcoffee/e680855c-01ad-41cd-8336-11d06a6bb447/extra_large.jpg",
+            "thumb": "https://cdn.clopos.com/clockcoffee/e680855c-01ad-41cd-8336-11d06a6bb447/thumb.jpg",
+            "w": 1080,
+            "h": 1350,
+            "blurHash": "LdRW3ioe.8azxufQWBfQ~qayIAj["
+          }
+        },
+        {
+          "id": 899,
+          "name": "Beef Salad (Abunə)",
+          "desc": "",
+          "kcal": null,
+          "timer": 4.21,
+          "regular": null,
+          "img": {
+            "card": "https://cdn-2.clopos.com/clockcoffee/e4c51332-3a7c-4279-a634-bf2867666007/card43@2x.webp",
+            "cardJpg": "https://cdn-2.clopos.com/clockcoffee/e4c51332-3a7c-4279-a634-bf2867666007/card43@2x.jpg",
+            "large": "https://cdn.clopos.com/clockcoffee/e4c51332-3a7c-4279-a634-bf2867666007/extra_large.jpg",
+            "thumb": "https://cdn.clopos.com/clockcoffee/e4c51332-3a7c-4279-a634-bf2867666007/thumb.jpg",
+            "w": 1080,
+            "h": 1350,
+            "blurHash": "LsR3G}of.8oLozayWUj[_NaeITWC"
+          }
+        },
+        {
+          "id": 913,
+          "name": "Caesar Salad",
+          "desc": "",
+          "kcal": null,
+          "timer": null,
+          "regular": 11,
+          "img": {
+            "card": "https://cdn-2.clopos.com/clockcoffee/113c728e-6d6d-43e9-a816-640c3edc1e38/card43@2x.webp",
+            "cardJpg": "https://cdn-2.clopos.com/clockcoffee/113c728e-6d6d-43e9-a816-640c3edc1e38/card43@2x.jpg",
+            "large": "https://cdn.clopos.com/clockcoffee/113c728e-6d6d-43e9-a816-640c3edc1e38/extra_large.jpg",
+            "thumb": "https://cdn.clopos.com/clockcoffee/113c728e-6d6d-43e9-a816-640c3edc1e38/thumb.jpg",
+            "w": 1080,
+            "h": 1350,
+            "blurHash": "LeRfnGof-=axxuayWAa|_4WBITj]"
+          }
+        },
+        {
+          "id": 914,
+          "name": "Crispy Eggplant Salad",
+          "desc": "",
+          "kcal": null,
+          "timer": null,
+          "regular": 10,
+          "img": {
+            "card": "https://cdn-2.clopos.com/clockcoffee/96777019-2900-47a7-a539-d799c3b05bdc/card43@2x.webp",
+            "cardJpg": "https://cdn-2.clopos.com/clockcoffee/96777019-2900-47a7-a539-d799c3b05bdc/card43@2x.jpg",
+            "large": "https://cdn.clopos.com/clockcoffee/96777019-2900-47a7-a539-d799c3b05bdc/extra_large.jpg",
+            "thumb": "https://cdn.clopos.com/clockcoffee/96777019-2900-47a7-a539-d799c3b05bdc/thumb.jpg",
+            "w": 1080,
+            "h": 1350,
+            "blurHash": "LdRW3ioe.8azxufQWBfQ~qayIAj["
+          }
+        },
+        {
+          "id": 915,
+          "name": "Beef Salad",
+          "desc": "",
+          "kcal": null,
+          "timer": null,
+          "regular": 12,
+          "img": {
+            "card": "https://cdn-2.clopos.com/clockcoffee/efa02660-5961-414f-81c7-deca4fe563df/card43@2x.webp",
+            "cardJpg": "https://cdn-2.clopos.com/clockcoffee/efa02660-5961-414f-81c7-deca4fe563df/card43@2x.jpg",
+            "large": "https://cdn.clopos.com/clockcoffee/efa02660-5961-414f-81c7-deca4fe563df/extra_large.jpg",
+            "thumb": "https://cdn.clopos.com/clockcoffee/efa02660-5961-414f-81c7-deca4fe563df/thumb.jpg",
+            "w": 1080,
+            "h": 1350,
+            "blurHash": "LsR3G}of.8oLozayWUj[_NaeITWC"
+          }
+        },
+        {
+          "id": 937,
+          "name": "Sezar salatı",
+          "desc": "",
+          "kcal": null,
+          "timer": null,
+          "regular": 11,
+          "img": null
+        },
+        {
+          "id": 938,
+          "name": "Şnitsel salatı",
+          "desc": "Toyuq şnitzel 100qr, salat 30qr, marinad olunmuş kök 30qr, marinad olunmuş kələm 30qr, çeri pomidor 30qr, bal limon sousu 40qr",
+          "kcal": 383,
+          "timer": null,
+          "regular": 12,
+          "img": null
+        }
+      ]
+    },
+    {
+      "key": "sendvicler",
+      "title": "Sendviçlər",
+      "note": null,
+      "items": [
+        {
+          "id": 190,
+          "name": "Toyuqlu çiabatta sendviç",
+          "desc": "Çiabatta çörəyi, kumin ayoli sousu 50ml, marinad olunmuş toyuq file 60qr, kök marinad 30qr, qurudulmuş pomidor 20qr, kahı 10qr, turşu xiyar 30qr",
+          "kcal": 771,
+          "timer": 3.11,
+          "regular": 9,
+          "img": {
+            "card": "https://cdn-2.clopos.com/clockcoffee/a0bc537a-6cb4-4d9f-ac19-bd129e044b7d/card43@2x.webp",
+            "cardJpg": "https://cdn-2.clopos.com/clockcoffee/a0bc537a-6cb4-4d9f-ac19-bd129e044b7d/card43@2x.jpg",
+            "large": "https://cdn.clopos.com/clockcoffee/a0bc537a-6cb4-4d9f-ac19-bd129e044b7d/extra_large.jpg",
+            "thumb": "https://cdn.clopos.com/clockcoffee/a0bc537a-6cb4-4d9f-ac19-bd129e044b7d/thumb.jpg",
+            "w": 1086,
+            "h": 1448,
+            "blurHash": "L8Gtf+}@9at6?GxtEMni00$|ozI="
+          }
+        },
+        {
+          "id": 194,
+          "name": "Tuna balıqlı çovdar baget",
+          "desc": "Baqet çörəyi, rukola 20qr, tuna balığı konserv 70qr, mayonez 40qr, təbii xiyar 60qr, şüyüt 20qr",
+          "kcal": 555,
+          "timer": 3.83,
+          "regular": 11.5,
+          "img": {
+            "card": "https://cdn-2.clopos.com/clockcoffee/12ef5999-d706-4d23-aae3-10447ec6460d/card43@2x.webp",
+            "cardJpg": "https://cdn-2.clopos.com/clockcoffee/12ef5999-d706-4d23-aae3-10447ec6460d/card43@2x.jpg",
+            "large": "https://cdn.clopos.com/clockcoffee/12ef5999-d706-4d23-aae3-10447ec6460d/extra_large.jpg",
+            "thumb": "https://cdn.clopos.com/clockcoffee/12ef5999-d706-4d23-aae3-10447ec6460d/thumb.jpg",
+            "w": 1122,
+            "h": 1402,
+            "blurHash": "L6AvI1Eg0iWBx@OXaew]05x@};V["
+          }
+        },
+        {
+          "id": 204,
+          "name": "Kurasanda pastrami",
+          "desc": "Kurasan, mal mal əti vetcina 60qr, kahı 30qr, xiyar 60qr, kumin ayoli sousu 40qr",
+          "kcal": 641,
+          "timer": 5.83,
+          "regular": null,
+          "img": {
+            "card": "https://cdn-2.clopos.com/clockcoffee/e084cae3-4af2-4e17-8042-736140c1b4cb/card43@2x.webp",
+            "cardJpg": "https://cdn-2.clopos.com/clockcoffee/e084cae3-4af2-4e17-8042-736140c1b4cb/card43@2x.jpg",
+            "large": "https://cdn.clopos.com/clockcoffee/e084cae3-4af2-4e17-8042-736140c1b4cb/extra_large.jpg",
+            "thumb": "https://cdn.clopos.com/clockcoffee/e084cae3-4af2-4e17-8042-736140c1b4cb/thumb.jpg",
+            "w": 1086,
+            "h": 1448,
+            "blurHash": "LHH^eH~VO@tQIVIoEMxG1JNGD*M|"
+          }
+        },
+        {
+          "id": 205,
+          "name": "Kurasanda qızıl balıq",
+          "desc": "Kurasan, qızılbalıq 50qr, xiyar təbii 60qr, rukola 20qr, dill kapers sosusu 50qr",
+          "kcal": 513,
+          "timer": 7.61,
+          "regular": null,
+          "img": {
+            "card": "https://cdn-2.clopos.com/clockcoffee/a27b1ced-bf7d-47b4-8204-6bef117fafda/card43@2x.webp",
+            "cardJpg": "https://cdn-2.clopos.com/clockcoffee/a27b1ced-bf7d-47b4-8204-6bef117fafda/card43@2x.jpg",
+            "large": "https://cdn.clopos.com/clockcoffee/a27b1ced-bf7d-47b4-8204-6bef117fafda/extra_large.jpg",
+            "thumb": "https://cdn.clopos.com/clockcoffee/a27b1ced-bf7d-47b4-8204-6bef117fafda/thumb.jpg",
+            "w": 1086,
+            "h": 1448,
+            "blurHash": "L6GtTa%huPpG00R$I;ni3F.7^%-V"
+          }
+        },
+        {
+          "id": 893,
+          "name": "Club Sandwich",
+          "desc": "",
+          "kcal": null,
+          "timer": 3.01,
+          "regular": 12,
+          "img": {
+            "card": "https://cdn-2.clopos.com/clockcoffee/911880b3-f9f5-4559-b2b0-7734d414a4d8/card43@2x.webp",
+            "cardJpg": "https://cdn-2.clopos.com/clockcoffee/911880b3-f9f5-4559-b2b0-7734d414a4d8/card43@2x.jpg",
+            "large": "https://cdn.clopos.com/clockcoffee/911880b3-f9f5-4559-b2b0-7734d414a4d8/extra_large.jpg",
+            "thumb": "https://cdn.clopos.com/clockcoffee/911880b3-f9f5-4559-b2b0-7734d414a4d8/thumb.jpg",
+            "w": 1080,
+            "h": 1350,
+            "blurHash": "LdSPLgWByDoftRofWBWB?wkCMwj["
+          }
+        },
+        {
+          "id": 894,
+          "name": "Caesar Roll",
+          "desc": "",
+          "kcal": null,
+          "timer": 4.36,
+          "regular": 12,
+          "img": {
+            "card": "https://cdn-2.clopos.com/clockcoffee/439d7f41-bc73-4b5f-a629-293fd4747da8/card43@2x.webp",
+            "cardJpg": "https://cdn-2.clopos.com/clockcoffee/439d7f41-bc73-4b5f-a629-293fd4747da8/card43@2x.jpg",
+            "large": "https://cdn.clopos.com/clockcoffee/439d7f41-bc73-4b5f-a629-293fd4747da8/extra_large.jpg",
+            "thumb": "https://cdn.clopos.com/clockcoffee/439d7f41-bc73-4b5f-a629-293fd4747da8/thumb.jpg",
+            "w": 1080,
+            "h": 1350,
+            "blurHash": "LdSFw.WB%hofxukCWBae?wofITa{"
+          }
+        },
+        {
+          "id": 895,
+          "name": "Pulled Beef Sandwich",
+          "desc": "",
+          "kcal": null,
+          "timer": 4.46,
+          "regular": 12.5,
+          "img": {
+            "card": "https://cdn-2.clopos.com/clockcoffee/5bdc4ac2-f367-4495-8e4e-1dcc5e2fe138/card43@2x.webp",
+            "cardJpg": "https://cdn-2.clopos.com/clockcoffee/5bdc4ac2-f367-4495-8e4e-1dcc5e2fe138/card43@2x.jpg",
+            "large": "https://cdn.clopos.com/clockcoffee/5bdc4ac2-f367-4495-8e4e-1dcc5e2fe138/extra_large.jpg",
+            "thumb": "https://cdn.clopos.com/clockcoffee/5bdc4ac2-f367-4495-8e4e-1dcc5e2fe138/thumb.jpg",
+            "w": 1080,
+            "h": 1350,
+            "blurHash": "LoR:1tayx^ofxuofWBWB?wayMxj["
+          }
+        },
+        {
+          "id": 896,
+          "name": "Chicken Croissant",
+          "desc": "",
+          "kcal": null,
+          "timer": 4.31,
+          "regular": 12,
+          "img": {
+            "card": "https://cdn-2.clopos.com/clockcoffee/15bb2f8e-ea61-40e0-add1-75b8b1a0c006/card43@2x.webp",
+            "cardJpg": "https://cdn-2.clopos.com/clockcoffee/15bb2f8e-ea61-40e0-add1-75b8b1a0c006/card43@2x.jpg",
+            "large": "https://cdn.clopos.com/clockcoffee/15bb2f8e-ea61-40e0-add1-75b8b1a0c006/extra_large.jpg",
+            "thumb": "https://cdn.clopos.com/clockcoffee/15bb2f8e-ea61-40e0-add1-75b8b1a0c006/thumb.jpg",
+            "w": 1080,
+            "h": 1350,
+            "blurHash": "LnRyg7bH%Noft7kCWBWB?wjZMxWW"
+          }
+        },
+        {
+          "id": 897,
+          "name": "Smoked Salmon Panini",
+          "desc": "",
+          "kcal": null,
+          "timer": 6.41,
+          "regular": 12.5,
+          "img": {
+            "card": "https://cdn-2.clopos.com/clockcoffee/2a061610-7a7f-4a94-b97c-461c2d19d7c3/card43@2x.webp",
+            "cardJpg": "https://cdn-2.clopos.com/clockcoffee/2a061610-7a7f-4a94-b97c-461c2d19d7c3/card43@2x.jpg",
+            "large": "https://cdn.clopos.com/clockcoffee/2a061610-7a7f-4a94-b97c-461c2d19d7c3/extra_large.jpg",
+            "thumb": "https://cdn.clopos.com/clockcoffee/2a061610-7a7f-4a94-b97c-461c2d19d7c3/thumb.jpg",
+            "w": 1080,
+            "h": 1350,
+            "blurHash": "LoS63;ayx^oft8kCWBWB?wj@Mxf6"
+          }
+        },
+        {
+          "id": 907,
+          "name": "Panini Sandwich",
+          "desc": "",
+          "kcal": null,
+          "timer": 3.83,
+          "regular": 10,
+          "img": {
+            "card": "https://cdn-2.clopos.com/clockcoffee/7402e47d-444b-435a-b4a2-5a570880c9f4/card43@2x.webp",
+            "cardJpg": "https://cdn-2.clopos.com/clockcoffee/7402e47d-444b-435a-b4a2-5a570880c9f4/card43@2x.jpg",
+            "large": "https://cdn.clopos.com/clockcoffee/7402e47d-444b-435a-b4a2-5a570880c9f4/extra_large.jpg",
+            "thumb": "https://cdn.clopos.com/clockcoffee/7402e47d-444b-435a-b4a2-5a570880c9f4/thumb.jpg",
+            "w": 1080,
+            "h": 1350,
+            "blurHash": "LfRymPof.8jZxuayWBof_4f6IAWq"
+          }
+        }
+      ]
+    },
+    {
+      "key": "bowl",
+      "title": "Bowl",
+      "note": null,
+      "items": [
+        {
+          "id": 199,
+          "name": "Toyuqlu bowl",
+          "desc": "Ağ kələm marinad 40qr, qırmızı lobya 50qr, çeri pomidor 50qr, salat 10qr, kök mirnad 50qr, toyuq file 100qr, bonduella qarğıdalı 50qr, bal limon spusu 50qr",
+          "kcal": 445,
+          "timer": 3.81,
+          "regular": 9,
+          "img": {
+            "card": "https://cdn-2.clopos.com/clockcoffee/5a5fe4a6-a8ff-4b90-a6d3-7bf8c083bfed/card43@2x.webp",
+            "cardJpg": "https://cdn-2.clopos.com/clockcoffee/5a5fe4a6-a8ff-4b90-a6d3-7bf8c083bfed/card43@2x.jpg",
+            "large": "https://cdn.clopos.com/clockcoffee/5a5fe4a6-a8ff-4b90-a6d3-7bf8c083bfed/extra_large.jpg",
+            "thumb": "https://cdn.clopos.com/clockcoffee/5a5fe4a6-a8ff-4b90-a6d3-7bf8c083bfed/thumb.jpg",
+            "w": 1086,
+            "h": 1448,
+            "blurHash": "L6I4Rr@{b#?=yW5502Nf00K$00=z"
+          }
+        },
+        {
+          "id": 200,
+          "name": "Tuna balıqlı bowl",
+          "desc": "Tuna balıq konserv 60qr, xiyar təbii 70qr, kök marinad 30qr, çeri pomidor 60qr, salat 20qr, bal limon sousu 50qr, qırmızı kələm 30qr, bonduella qarğıdalı 50qr",
+          "kcal": 287,
+          "timer": 4.73,
+          "regular": 12,
+          "img": {
+            "card": "https://cdn-2.clopos.com/clockcoffee/747c4152-efc7-446e-93d1-80157bfe4ced/card43@2x.webp",
+            "cardJpg": "https://cdn-2.clopos.com/clockcoffee/747c4152-efc7-446e-93d1-80157bfe4ced/card43@2x.jpg",
+            "large": "https://cdn.clopos.com/clockcoffee/747c4152-efc7-446e-93d1-80157bfe4ced/extra_large.jpg",
+            "thumb": "https://cdn.clopos.com/clockcoffee/747c4152-efc7-446e-93d1-80157bfe4ced/thumb.jpg",
+            "w": 1086,
+            "h": 1448,
+            "blurHash": "L7JZn~yV~W-CxuFY03#701]B00%f"
+          }
+        },
+        {
+          "id": 201,
+          "name": "Pastramili protein bowl",
+          "desc": "Hisə verilmiş can əti 70qr, təbii xiyar 100qr, çeri pomidor 70qr, marinad olunmuş kələm 50qr, bal limon sousu 30qr, salat 20qr, marinad olunmuş kök 50qr",
+          "kcal": 443,
+          "timer": 5.71,
+          "regular": 14,
+          "img": {
+            "card": "https://cdn-2.clopos.com/clockcoffee/91860aee-3d0f-4c2d-923b-ee51491b2fac/card43@2x.webp",
+            "cardJpg": "https://cdn-2.clopos.com/clockcoffee/91860aee-3d0f-4c2d-923b-ee51491b2fac/card43@2x.jpg",
+            "large": "https://cdn.clopos.com/clockcoffee/91860aee-3d0f-4c2d-923b-ee51491b2fac/extra_large.jpg",
+            "thumb": "https://cdn.clopos.com/clockcoffee/91860aee-3d0f-4c2d-923b-ee51491b2fac/thumb.jpg",
+            "w": 1024,
+            "h": 1536,
+            "blurHash": "LBIWS[2^=zOX9E0eELNK}@cXTH+v"
+          }
+        },
+        {
+          "id": 900,
+          "name": "Fitness Bowl",
+          "desc": "",
+          "kcal": null,
+          "timer": 4.78,
+          "regular": 12,
+          "img": {
+            "card": "https://cdn-2.clopos.com/clockcoffee/1c3934c2-9efd-46ac-a607-9bfdb0ee5c87/card43@2x.webp",
+            "cardJpg": "https://cdn-2.clopos.com/clockcoffee/1c3934c2-9efd-46ac-a607-9bfdb0ee5c87/card43@2x.jpg",
+            "large": "https://cdn.clopos.com/clockcoffee/1c3934c2-9efd-46ac-a607-9bfdb0ee5c87/extra_large.jpg",
+            "thumb": "https://cdn.clopos.com/clockcoffee/1c3934c2-9efd-46ac-a607-9bfdb0ee5c87/thumb.jpg",
+            "w": 1080,
+            "h": 1350,
+            "blurHash": "L#Q,8mbH-=n+t7ayWBj[_4jsIUbF"
+          }
+        },
+        {
+          "id": 901,
+          "name": "Keto Bowl",
+          "desc": "",
+          "kcal": null,
+          "timer": 3.81,
+          "regular": 12.5,
+          "img": {
+            "card": "https://cdn-2.clopos.com/clockcoffee/a2002e08-7d3b-43ed-ae60-07c0adbb2755/card43@2x.webp",
+            "cardJpg": "https://cdn-2.clopos.com/clockcoffee/a2002e08-7d3b-43ed-ae60-07c0adbb2755/card43@2x.jpg",
+            "large": "https://cdn.clopos.com/clockcoffee/a2002e08-7d3b-43ed-ae60-07c0adbb2755/extra_large.jpg",
+            "thumb": "https://cdn.clopos.com/clockcoffee/a2002e08-7d3b-43ed-ae60-07c0adbb2755/thumb.jpg",
+            "w": 1080,
+            "h": 1350,
+            "blurHash": "LrRMPRt7.8afbaaen+kC_4WBIToe"
+          }
+        },
+        {
+          "id": 902,
+          "name": "Vegan Bowl",
+          "desc": "",
+          "kcal": null,
+          "timer": 4.03,
+          "regular": 13,
+          "img": {
+            "card": "https://cdn-2.clopos.com/clockcoffee/2f81db3a-5f12-403a-a58c-8a0329de543e/card43@2x.webp",
+            "cardJpg": "https://cdn-2.clopos.com/clockcoffee/2f81db3a-5f12-403a-a58c-8a0329de543e/card43@2x.jpg",
+            "large": "https://cdn.clopos.com/clockcoffee/2f81db3a-5f12-403a-a58c-8a0329de543e/extra_large.jpg",
+            "thumb": "https://cdn.clopos.com/clockcoffee/2f81db3a-5f12-403a-a58c-8a0329de543e/thumb.jpg",
+            "w": 1080,
+            "h": 1350,
+            "blurHash": "LzQ,Btof-;azj]j[j@ay_4afIUfP"
+          }
+        }
+      ]
+    },
+    {
+      "key": "hot-coffee",
+      "title": "İsti içkilər",
+      "note": null,
+      "items": [
+        {
+          "id": 206,
+          "name": "Espresso",
+          "desc": "Braziliya qəhvəsi 20qr",
+          "kcal": null,
+          "timer": 1.21,
+          "regular": 4.5,
+          "img": {
+            "card": "https://cdn-2.clopos.com/clockcoffee/b795244f-f941-47be-abad-a87b9a575674/card43@2x.webp",
+            "cardJpg": "https://cdn-2.clopos.com/clockcoffee/b795244f-f941-47be-abad-a87b9a575674/card43@2x.jpg",
+            "large": "https://cdn.clopos.com/clockcoffee/b795244f-f941-47be-abad-a87b9a575674/extra_large.jpg",
+            "thumb": "https://cdn.clopos.com/clockcoffee/b795244f-f941-47be-abad-a87b9a575674/thumb.jpg",
+            "w": 1240,
+            "h": 697,
+            "blurHash": "LCDbi{~V0001vzE1K5^+9aRjxCt7"
+          }
+        },
+        {
+          "id": 207,
+          "name": "Americano",
+          "desc": "Braziliya qəhvəsi 20qr, isti su",
+          "kcal": null,
+          "timer": 1.21,
+          "regular": 5,
+          "img": {
+            "card": "https://cdn-2.clopos.com/clockcoffee/873b1a44-983c-40b4-b762-01a1113a6c6e/card43@2x.webp",
+            "cardJpg": "https://cdn-2.clopos.com/clockcoffee/873b1a44-983c-40b4-b762-01a1113a6c6e/card43@2x.jpg",
+            "large": "https://cdn.clopos.com/clockcoffee/873b1a44-983c-40b4-b762-01a1113a6c6e/extra_large.jpg",
+            "thumb": "https://cdn.clopos.com/clockcoffee/873b1a44-983c-40b4-b762-01a1113a6c6e/thumb.jpg",
+            "w": 1132,
+            "h": 1390,
+            "blurHash": "LJD8du}?$$r?i_Ipt6%1MyM|NHs:"
+          }
+        },
+        {
+          "id": 208,
+          "name": "Cappuccino",
+          "desc": "Braziliya qəhvəsi 20qr, bol köpüklü isti süd 280ml",
+          "kcal": null,
+          "timer": 1.81,
+          "regular": 5.5,
+          "img": {
+            "card": "https://cdn-2.clopos.com/clockcoffee/c92ea4bc-a959-4f8d-aff7-ea677dd4860e/card43@2x.webp",
+            "cardJpg": "https://cdn-2.clopos.com/clockcoffee/c92ea4bc-a959-4f8d-aff7-ea677dd4860e/card43@2x.jpg",
+            "large": "https://cdn.clopos.com/clockcoffee/c92ea4bc-a959-4f8d-aff7-ea677dd4860e/extra_large.jpg",
+            "thumb": "https://cdn.clopos.com/clockcoffee/c92ea4bc-a959-4f8d-aff7-ea677dd4860e/thumb.jpg",
+            "w": 1129,
+            "h": 635,
+            "blurHash": "L9FO.JIA00~q^*xa9ZNG00o}?^Md"
+          }
+        },
+        {
+          "id": 209,
+          "name": "Coffee latte",
+          "desc": "Braziliya qəhvəsi 20qr, az köpüklü isti süd 280ml",
+          "kcal": null,
+          "timer": 1.83,
+          "regular": 5.2,
+          "img": {
+            "card": "https://cdn-2.clopos.com/clockcoffee/90decadb-864b-47cd-ae27-3489e4dbc78b/card43@2x.webp",
+            "cardJpg": "https://cdn-2.clopos.com/clockcoffee/90decadb-864b-47cd-ae27-3489e4dbc78b/card43@2x.jpg",
+            "large": "https://cdn.clopos.com/clockcoffee/90decadb-864b-47cd-ae27-3489e4dbc78b/extra_large.jpg",
+            "thumb": "https://cdn.clopos.com/clockcoffee/90decadb-864b-47cd-ae27-3489e4dbc78b/thumb.jpg",
+            "w": 1341,
+            "h": 754,
+            "blurHash": "LHHccNV@02tR}pWX11axQnNwpb$M"
+          }
+        },
+        {
+          "id": 210,
+          "name": "Spanish Coffee",
+          "desc": "Braziliya qəhvəsi 20qr, az köpüklü isti süd 280ml, qatılaşdırılmış süd 30qr",
+          "kcal": null,
+          "timer": 1.92,
+          "regular": 5.6,
+          "img": {
+            "card": "https://cdn-2.clopos.com/clockcoffee/0674dadd-a1d4-43a7-8eb3-1fae932ae19c/card43@2x.webp",
+            "cardJpg": "https://cdn-2.clopos.com/clockcoffee/0674dadd-a1d4-43a7-8eb3-1fae932ae19c/card43@2x.jpg",
+            "large": "https://cdn.clopos.com/clockcoffee/0674dadd-a1d4-43a7-8eb3-1fae932ae19c/extra_large.jpg",
+            "thumb": "https://cdn.clopos.com/clockcoffee/0674dadd-a1d4-43a7-8eb3-1fae932ae19c/thumb.jpg",
+            "w": 600,
+            "h": 337,
+            "blurHash": "LFHL3lR400?G8wtS.Trp4nV?.8tm"
+          }
+        },
+        {
+          "id": 211,
+          "name": "Coffee Mocha",
+          "desc": "Braziliya qəhvəsi 20qr, az köpüklü isti süd 280ml, dalma şokolad qırınıtları 40qr",
+          "kcal": null,
+          "timer": 1.82,
+          "regular": 5.9,
+          "img": {
+            "card": "https://cdn-2.clopos.com/clockcoffee/f6a48427-924b-4697-8b39-de38acaf2f0a/card43@2x.webp",
+            "cardJpg": "https://cdn-2.clopos.com/clockcoffee/f6a48427-924b-4697-8b39-de38acaf2f0a/card43@2x.jpg",
+            "large": "https://cdn.clopos.com/clockcoffee/f6a48427-924b-4697-8b39-de38acaf2f0a/extra_large.jpg",
+            "thumb": "https://cdn.clopos.com/clockcoffee/f6a48427-924b-4697-8b39-de38acaf2f0a/thumb.jpg",
+            "w": 1000,
+            "h": 798,
+            "blurHash": "LCH1*$.8008{~VRj00bIK6xa%1bH"
+          }
+        },
+        {
+          "id": 212,
+          "name": "Raff Coffee",
+          "desc": "Braziliya qəhvəsi 20qr, isti süd 200ml, qaymaq 60ml, vanil siropu 24ml",
+          "kcal": null,
+          "timer": 2.24,
+          "regular": 6,
+          "img": {
+            "card": "https://cdn-2.clopos.com/clockcoffee/8b268ed4-879c-48ed-bf81-5f9b92548c13/card43@2x.webp",
+            "cardJpg": "https://cdn-2.clopos.com/clockcoffee/8b268ed4-879c-48ed-bf81-5f9b92548c13/card43@2x.jpg",
+            "large": "https://cdn.clopos.com/clockcoffee/8b268ed4-879c-48ed-bf81-5f9b92548c13/extra_large.jpg",
+            "thumb": "https://cdn.clopos.com/clockcoffee/8b268ed4-879c-48ed-bf81-5f9b92548c13/thumb.jpg",
+            "w": 735,
+            "h": 817,
+            "blurHash": "LBF;ySs:039GRO9aJB-p01NG~Aof"
+          }
+        },
+        {
+          "id": 213,
+          "name": "Affagato",
+          "desc": "Braziliya qəhvəsi 20qr, vanilyalı dondurma 120qr",
+          "kcal": null,
+          "timer": 1.71,
+          "regular": 6.2,
+          "img": {
+            "card": "https://cdn-2.clopos.com/clockcoffee/c9fd4ed9-810e-4973-a757-96dd360c8d21/card43@2x.webp",
+            "cardJpg": "https://cdn-2.clopos.com/clockcoffee/c9fd4ed9-810e-4973-a757-96dd360c8d21/card43@2x.jpg",
+            "large": "https://cdn.clopos.com/clockcoffee/c9fd4ed9-810e-4973-a757-96dd360c8d21/extra_large.jpg",
+            "thumb": "https://cdn.clopos.com/clockcoffee/c9fd4ed9-810e-4973-a757-96dd360c8d21/thumb.jpg",
+            "w": 657,
+            "h": 369,
+            "blurHash": "LXIXW^R+X8V@~Uj]E1WBWVoee.WX"
+          }
+        },
+        {
+          "id": 214,
+          "name": "FlatWhite",
+          "desc": "Braziliya qəhvəsi 20qr, isti süd 200ml",
+          "kcal": null,
+          "timer": 1.36,
+          "regular": 5.5,
+          "img": {
+            "card": "https://cdn-2.clopos.com/clockcoffee/77da65e7-4b9b-4200-95da-e7096efda59a/card43@2x.webp",
+            "cardJpg": "https://cdn-2.clopos.com/clockcoffee/77da65e7-4b9b-4200-95da-e7096efda59a/card43@2x.jpg",
+            "large": "https://cdn.clopos.com/clockcoffee/77da65e7-4b9b-4200-95da-e7096efda59a/extra_large.jpg",
+            "thumb": "https://cdn.clopos.com/clockcoffee/77da65e7-4b9b-4200-95da-e7096efda59a/thumb.jpg",
+            "w": 1622,
+            "h": 912,
+            "blurHash": "L7Dv7j?a004o~UWX4:%10L-;$z9F"
+          }
+        },
+        {
+          "id": 215,
+          "name": "Cortado",
+          "desc": "Braziliya qəhvəsi 20qr, isti süd 80ml",
+          "kcal": null,
+          "timer": 1.22,
+          "regular": 5.2,
+          "img": {
+            "card": "https://cdn-2.clopos.com/clockcoffee/7cc44507-296c-402b-9356-8d6b833687b8/card43@2x.webp",
+            "cardJpg": "https://cdn-2.clopos.com/clockcoffee/7cc44507-296c-402b-9356-8d6b833687b8/card43@2x.jpg",
+            "large": "https://cdn.clopos.com/clockcoffee/7cc44507-296c-402b-9356-8d6b833687b8/extra_large.jpg",
+            "thumb": "https://cdn.clopos.com/clockcoffee/7cc44507-296c-402b-9356-8d6b833687b8/thumb.jpg",
+            "w": 1434,
+            "h": 806,
+            "blurHash": "L5BClG5800~A^%xF57NI58t6%0NH"
+          }
+        },
+        {
+          "id": 216,
+          "name": "Türk qəhvəsi",
+          "desc": "Mehmet efendi türk qəhvəsi 9qr, filter su, lokum",
+          "kcal": null,
+          "timer": 0.71,
+          "regular": 4.5,
+          "img": {
+            "card": "https://cdn-2.clopos.com/clockcoffee/89243346-9328-4b5a-97b8-b32640038287/card43@2x.webp",
+            "cardJpg": "https://cdn-2.clopos.com/clockcoffee/89243346-9328-4b5a-97b8-b32640038287/card43@2x.jpg",
+            "large": "https://cdn.clopos.com/clockcoffee/89243346-9328-4b5a-97b8-b32640038287/extra_large.jpg",
+            "thumb": "https://cdn.clopos.com/clockcoffee/89243346-9328-4b5a-97b8-b32640038287/thumb.jpg",
+            "w": 1294,
+            "h": 727,
+            "blurHash": "L9Cs5H9E00~q^+xaE1M{NIkCs8oL"
+          }
+        },
+        {
+          "id": 217,
+          "name": "Cacao",
+          "desc": "Kakao tozu 25qr, isti süd 280ml",
+          "kcal": null,
+          "timer": 1.42,
+          "regular": 5,
+          "img": {
+            "card": "https://cdn-2.clopos.com/clockcoffee/b9de67da-7d8a-4abc-847b-2b21ac9cadaf/card43@2x.webp",
+            "cardJpg": "https://cdn-2.clopos.com/clockcoffee/b9de67da-7d8a-4abc-847b-2b21ac9cadaf/card43@2x.jpg",
+            "large": "https://cdn.clopos.com/clockcoffee/b9de67da-7d8a-4abc-847b-2b21ac9cadaf/extra_large.jpg",
+            "thumb": "https://cdn.clopos.com/clockcoffee/b9de67da-7d8a-4abc-847b-2b21ac9cadaf/thumb.jpg",
+            "w": 1199,
+            "h": 1499,
+            "blurHash": "LiO|LgbI_Nae-;j[WBay.SWBIAkC"
+          }
+        },
+        {
+          "id": 218,
+          "name": "Hot chocolate with marshmellow",
+          "desc": "İsti şokolad tozu 40qr, isti süd 280ml, marşmelo 1 ədəd",
+          "kcal": null,
+          "timer": 1.91,
+          "regular": 6,
+          "img": {
+            "card": "https://cdn-2.clopos.com/clockcoffee/a29283db-aeec-4de3-a31a-70774a29e2ed/card43@2x.webp",
+            "cardJpg": "https://cdn-2.clopos.com/clockcoffee/a29283db-aeec-4de3-a31a-70774a29e2ed/card43@2x.jpg",
+            "large": "https://cdn.clopos.com/clockcoffee/a29283db-aeec-4de3-a31a-70774a29e2ed/extra_large.jpg",
+            "thumb": "https://cdn.clopos.com/clockcoffee/a29283db-aeec-4de3-a31a-70774a29e2ed/thumb.jpg",
+            "w": 1186,
+            "h": 667,
+            "blurHash": "LEA9+rNe0fw[~BbvE2Vs%1X9NGaJ"
+          }
+        },
+        {
+          "id": 219,
+          "name": "White Hot Choco",
+          "desc": "ağ şokolad tozu 40qr, süd 280ml",
+          "kcal": null,
+          "timer": 1.92,
+          "regular": 6.2,
+          "img": {
+            "card": "https://cdn-2.clopos.com/clockcoffee/1a36d7a7-dd4d-4c20-86e3-0318bad85b16/card43@2x.webp",
+            "cardJpg": "https://cdn-2.clopos.com/clockcoffee/1a36d7a7-dd4d-4c20-86e3-0318bad85b16/card43@2x.jpg",
+            "large": "https://cdn.clopos.com/clockcoffee/1a36d7a7-dd4d-4c20-86e3-0318bad85b16/extra_large.jpg",
+            "thumb": "https://cdn.clopos.com/clockcoffee/1a36d7a7-dd4d-4c20-86e3-0318bad85b16/thumb.jpg",
+            "w": 1200,
+            "h": 1800,
+            "blurHash": "LQLp%C~qozkCrCIUxtt700aet7WB"
+          }
+        },
+        {
+          "id": 220,
+          "name": "Sahlep",
+          "desc": "Sahlep tozu 40qr, süd 280ml",
+          "kcal": null,
+          "timer": 1.93,
+          "regular": 6.2,
+          "img": {
+            "card": "https://cdn-2.clopos.com/clockcoffee/839c4595-3f5f-4dcd-b4a5-3ae98d88e626/card43@2x.webp",
+            "cardJpg": "https://cdn-2.clopos.com/clockcoffee/839c4595-3f5f-4dcd-b4a5-3ae98d88e626/card43@2x.jpg",
+            "large": "https://cdn.clopos.com/clockcoffee/839c4595-3f5f-4dcd-b4a5-3ae98d88e626/extra_large.jpg",
+            "thumb": "https://cdn.clopos.com/clockcoffee/839c4595-3f5f-4dcd-b4a5-3ae98d88e626/thumb.jpg",
+            "w": 981,
+            "h": 552,
+            "blurHash": "LAH24b8w00~qDO-podn300-p-TsS"
+          }
+        },
+        {
+          "id": 221,
+          "name": "Matcha latte",
+          "desc": "",
+          "kcal": null,
+          "timer": 1.74,
+          "regular": null,
+          "img": {
+            "card": "https://cdn-2.clopos.com/clockcoffee/a126770c-22db-4382-a017-63d73bac7e13/card43@2x.webp",
+            "cardJpg": "https://cdn-2.clopos.com/clockcoffee/a126770c-22db-4382-a017-63d73bac7e13/card43@2x.jpg",
+            "large": "https://cdn.clopos.com/clockcoffee/a126770c-22db-4382-a017-63d73bac7e13/extra_large.jpg",
+            "thumb": "https://cdn.clopos.com/clockcoffee/a126770c-22db-4382-a017-63d73bac7e13/thumb.jpg",
+            "w": 806,
+            "h": 453,
+            "blurHash": "LNM%Da~VRCD*^%9Znn-oV[aeaxof"
+          }
+        },
+        {
+          "id": 222,
+          "name": "Chai Tea Latte",
+          "desc": "Çai tea tozu 40qr, isti süd 280ml, darçın tozu",
+          "kcal": null,
+          "timer": 1.92,
+          "regular": 6.2,
+          "img": {
+            "card": "https://cdn-2.clopos.com/clockcoffee/f3343913-9a2a-40ff-b7c9-22738a387a7f/card43@2x.webp",
+            "cardJpg": "https://cdn-2.clopos.com/clockcoffee/f3343913-9a2a-40ff-b7c9-22738a387a7f/card43@2x.jpg",
+            "large": "https://cdn.clopos.com/clockcoffee/f3343913-9a2a-40ff-b7c9-22738a387a7f/extra_large.jpg",
+            "thumb": "https://cdn.clopos.com/clockcoffee/f3343913-9a2a-40ff-b7c9-22738a387a7f/thumb.jpg",
+            "w": 1463,
+            "h": 823,
+            "blurHash": "L48WmZ^*0001?GNc9a$f01IV~U?a"
+          }
+        },
+        {
+          "id": 223,
+          "name": "Tea Pot",
+          "desc": "Assam (hind çayı) Kenya və Seylon çaylarının qarışımı",
+          "kcal": null,
+          "timer": 0.93,
+          "regular": 7,
+          "img": {
+            "card": "https://cdn-2.clopos.com/clockcoffee/03d6fbbc-3ea5-4aae-9c38-748b47a9b70e/card43@2x.webp",
+            "cardJpg": "https://cdn-2.clopos.com/clockcoffee/03d6fbbc-3ea5-4aae-9c38-748b47a9b70e/card43@2x.jpg",
+            "large": "https://cdn.clopos.com/clockcoffee/03d6fbbc-3ea5-4aae-9c38-748b47a9b70e/extra_large.jpg",
+            "thumb": "https://cdn.clopos.com/clockcoffee/03d6fbbc-3ea5-4aae-9c38-748b47a9b70e/thumb.jpg",
+            "w": 944,
+            "h": 531,
+            "blurHash": "L3E1mR010NIW2=~AMLWC9tbwV[V["
+          }
+        },
+        {
+          "id": 224,
+          "name": "Special Tea Pot",
+          "desc": "Təbii portağal dilimləri, alma meyvəsi, limon dilimləri, marakuya püresi 30qr, darçın çubuğu tərkibli meyvəli çay",
+          "kcal": null,
+          "timer": 1.51,
+          "regular": 8,
+          "img": {
+            "card": "https://cdn-2.clopos.com/clockcoffee/00608579-5938-4e8e-b93b-f761b260c43e/card43@2x.webp",
+            "cardJpg": "https://cdn-2.clopos.com/clockcoffee/00608579-5938-4e8e-b93b-f761b260c43e/card43@2x.jpg",
+            "large": "https://cdn.clopos.com/clockcoffee/00608579-5938-4e8e-b93b-f761b260c43e/extra_large.jpg",
+            "thumb": "https://cdn.clopos.com/clockcoffee/00608579-5938-4e8e-b93b-f761b260c43e/thumb.jpg",
+            "w": 1109,
+            "h": 623,
+            "blurHash": "L6En^J0300_JBVozVF-Q#S5S%a^P"
+          }
+        },
+        {
+          "id": 225,
+          "name": "Tea bag",
+          "desc": "",
+          "kcal": null,
+          "timer": 0.91,
+          "regular": 4,
+          "img": {
+            "card": "https://cdn-2.clopos.com/clockcoffee/b1f0d6c8-66ad-4bf8-b3a4-23f04ae15ce1/card43@2x.webp",
+            "cardJpg": "https://cdn-2.clopos.com/clockcoffee/b1f0d6c8-66ad-4bf8-b3a4-23f04ae15ce1/card43@2x.jpg",
+            "large": "https://cdn.clopos.com/clockcoffee/b1f0d6c8-66ad-4bf8-b3a4-23f04ae15ce1/extra_large.jpg",
+            "thumb": "https://cdn.clopos.com/clockcoffee/b1f0d6c8-66ad-4bf8-b3a4-23f04ae15ce1/thumb.jpg",
+            "w": 600,
+            "h": 343,
+            "blurHash": "L7B3Zz~BHqRP0L4;El%M0Ks9tSg3"
+          }
+        },
+        {
+          "id": 750,
+          "name": "Tea pot (green tea)",
+          "desc": "",
+          "kcal": null,
+          "timer": 0.93,
+          "regular": 7,
+          "img": {
+            "card": "https://cdn-2.clopos.com/clockcoffee/32dc370a-f2cc-4155-969a-ed548f67b652/card43@2x.webp",
+            "cardJpg": "https://cdn-2.clopos.com/clockcoffee/32dc370a-f2cc-4155-969a-ed548f67b652/card43@2x.jpg",
+            "large": "https://cdn.clopos.com/clockcoffee/32dc370a-f2cc-4155-969a-ed548f67b652/extra_large.jpg",
+            "thumb": "https://cdn.clopos.com/clockcoffee/32dc370a-f2cc-4155-969a-ed548f67b652/thumb.jpg",
+            "w": 736,
+            "h": 1104,
+            "blurHash": "LVK2RmotM}t7?]NFaxxa^,RixvRQ"
+          }
+        },
+        {
+          "id": 753,
+          "name": "Tea pot (jasmin)",
+          "desc": "",
+          "kcal": null,
+          "timer": 0.93,
+          "regular": 7,
+          "img": {
+            "card": "https://cdn-2.clopos.com/clockcoffee/b84e0c79-0140-4449-8f02-d191f6a92212/card43@2x.webp",
+            "cardJpg": "https://cdn-2.clopos.com/clockcoffee/b84e0c79-0140-4449-8f02-d191f6a92212/card43@2x.jpg",
+            "large": "https://cdn.clopos.com/clockcoffee/b84e0c79-0140-4449-8f02-d191f6a92212/extra_large.jpg",
+            "thumb": "https://cdn.clopos.com/clockcoffee/b84e0c79-0140-4449-8f02-d191f6a92212/thumb.jpg",
+            "w": 736,
+            "h": 1349,
+            "blurHash": "LJFrOz00~V4:-WIoWWnN=KEL?bIA"
+          }
+        },
+        {
+          "id": 35,
+          "name": "Matcha",
+          "desc": "",
+          "kcal": null,
+          "timer": null,
+          "regular": 6.5,
+          "img": {
+            "card": "https://cdn-2.clopos.com/clockcoffee/bf60da62-677c-40ee-a2fa-57c1f1f505f7/card43@2x.webp",
+            "cardJpg": "https://cdn-2.clopos.com/clockcoffee/bf60da62-677c-40ee-a2fa-57c1f1f505f7/card43@2x.jpg",
+            "large": "https://cdn.clopos.com/clockcoffee/bf60da62-677c-40ee-a2fa-57c1f1f505f7/extra_large.jpg",
+            "thumb": "https://cdn.clopos.com/clockcoffee/bf60da62-677c-40ee-a2fa-57c1f1f505f7/thumb.jpg",
+            "w": 195,
+            "h": 130,
+            "blurHash": "LTNm4P~V-XRj?Y9asqxtV[WBjXof"
+          }
+        }
+      ]
+    },
+    {
+      "key": "cold-coffee",
+      "title": "Soyuq içkilər",
+      "note": null,
+      "items": [
+        {
+          "id": 226,
+          "name": "İced Americano",
+          "desc": "Braziliya qəhvəsi 20qr, filter su",
+          "kcal": null,
+          "timer": 0.98,
+          "regular": 5.5,
+          "img": {
+            "card": "https://cdn-2.clopos.com/clockcoffee/58696ffe-f61b-4119-99cc-18bdbe42ab38/card43@2x.webp",
+            "cardJpg": "https://cdn-2.clopos.com/clockcoffee/58696ffe-f61b-4119-99cc-18bdbe42ab38/card43@2x.jpg",
+            "large": "https://cdn.clopos.com/clockcoffee/58696ffe-f61b-4119-99cc-18bdbe42ab38/extra_large.jpg",
+            "thumb": "https://cdn.clopos.com/clockcoffee/58696ffe-f61b-4119-99cc-18bdbe42ab38/thumb.jpg",
+            "w": 1300,
+            "h": 731,
+            "blurHash": "L6FiDJMx00_Nr=.7NH00?voz00jY"
+          }
+        },
+        {
+          "id": 227,
+          "name": "Cold brew",
+          "desc": "",
+          "kcal": null,
+          "timer": 2.54,
+          "regular": 7.5,
+          "img": {
+            "card": "https://cdn-2.clopos.com/clockcoffee/4201d726-5273-4bb9-9bb5-5f2cb260bdd8/card43@2x.webp",
+            "cardJpg": "https://cdn-2.clopos.com/clockcoffee/4201d726-5273-4bb9-9bb5-5f2cb260bdd8/card43@2x.jpg",
+            "large": "https://cdn.clopos.com/clockcoffee/4201d726-5273-4bb9-9bb5-5f2cb260bdd8/extra_large.jpg",
+            "thumb": "https://cdn.clopos.com/clockcoffee/4201d726-5273-4bb9-9bb5-5f2cb260bdd8/thumb.jpg",
+            "w": 1024,
+            "h": 1024,
+            "blurHash": "LUJtxNxt?^NGrpt64.f,cEx]VsNG"
+          }
+        },
+        {
+          "id": 228,
+          "name": "İced Latte",
+          "desc": "Braziliya qəhvəsi 20qr, soyuq süd 200ml",
+          "kcal": null,
+          "timer": 1.42,
+          "regular": 5.6,
+          "img": {
+            "card": "https://cdn-2.clopos.com/clockcoffee/dd4a20da-d1e1-455a-970b-5b82f076ffc9/card43@2x.webp",
+            "cardJpg": "https://cdn-2.clopos.com/clockcoffee/dd4a20da-d1e1-455a-970b-5b82f076ffc9/card43@2x.jpg",
+            "large": "https://cdn.clopos.com/clockcoffee/dd4a20da-d1e1-455a-970b-5b82f076ffc9/extra_large.jpg",
+            "thumb": "https://cdn.clopos.com/clockcoffee/dd4a20da-d1e1-455a-970b-5b82f076ffc9/thumb.jpg",
+            "w": 1725,
+            "h": 970,
+            "blurHash": "L9AJ~29G00~ps8WVS5s:E3xa%0Ip"
+          }
+        },
+        {
+          "id": 229,
+          "name": "İced Mocha",
+          "desc": "",
+          "kcal": null,
+          "timer": 1.71,
+          "regular": 6.5,
+          "img": {
+            "card": "https://cdn-2.clopos.com/clockcoffee/ce7f3819-3b11-4415-a3ab-ac66c0c5e13d/card43@2x.webp",
+            "cardJpg": "https://cdn-2.clopos.com/clockcoffee/ce7f3819-3b11-4415-a3ab-ac66c0c5e13d/card43@2x.jpg",
+            "large": "https://cdn.clopos.com/clockcoffee/ce7f3819-3b11-4415-a3ab-ac66c0c5e13d/extra_large.jpg",
+            "thumb": "https://cdn.clopos.com/clockcoffee/ce7f3819-3b11-4415-a3ab-ac66c0c5e13d/thumb.jpg",
+            "w": 1780,
+            "h": 1001,
+            "blurHash": "LDJ@j:~B00.8nh%2x]M{%Lt7IoIo"
+          }
+        },
+        {
+          "id": 230,
+          "name": "İced Spanish Coffee",
+          "desc": "",
+          "kcal": null,
+          "timer": 1.61,
+          "regular": 6.2,
+          "img": {
+            "card": "https://cdn-2.clopos.com/clockcoffee/74537b4d-2ef9-4c76-9837-a5c6c1b25874/card43@2x.webp",
+            "cardJpg": "https://cdn-2.clopos.com/clockcoffee/74537b4d-2ef9-4c76-9837-a5c6c1b25874/card43@2x.jpg",
+            "large": "https://cdn.clopos.com/clockcoffee/74537b4d-2ef9-4c76-9837-a5c6c1b25874/extra_large.jpg",
+            "thumb": "https://cdn.clopos.com/clockcoffee/74537b4d-2ef9-4c76-9837-a5c6c1b25874/thumb.jpg",
+            "w": 735,
+            "h": 1105,
+            "blurHash": "LJN9,w~qyE9ZRkIAobx]%hozIA%2"
+          }
+        },
+        {
+          "id": 231,
+          "name": "İced Raff",
+          "desc": "",
+          "kcal": null,
+          "timer": 2.33,
+          "regular": 6.5,
+          "img": {
+            "card": "https://cdn-2.clopos.com/clockcoffee/4549e6e1-c76d-4071-b10f-83f88e0f2aa7/card43@2x.webp",
+            "cardJpg": "https://cdn-2.clopos.com/clockcoffee/4549e6e1-c76d-4071-b10f-83f88e0f2aa7/card43@2x.jpg",
+            "large": "https://cdn.clopos.com/clockcoffee/4549e6e1-c76d-4071-b10f-83f88e0f2aa7/extra_large.jpg",
+            "thumb": "https://cdn.clopos.com/clockcoffee/4549e6e1-c76d-4071-b10f-83f88e0f2aa7/thumb.jpg",
+            "w": 900,
+            "h": 1350,
+            "blurHash": "LKMZgo=^%#tR~UI9xu%MNdM{IA-:"
+          }
+        },
+        {
+          "id": 232,
+          "name": "Espresso Tonic",
+          "desc": "",
+          "kcal": null,
+          "timer": 2.73,
+          "regular": 6.5,
+          "img": {
+            "card": "https://cdn-2.clopos.com/clockcoffee/eb878b4c-0b0c-4191-a222-1ba55b975c76/card43@2x.webp",
+            "cardJpg": "https://cdn-2.clopos.com/clockcoffee/eb878b4c-0b0c-4191-a222-1ba55b975c76/card43@2x.jpg",
+            "large": "https://cdn.clopos.com/clockcoffee/eb878b4c-0b0c-4191-a222-1ba55b975c76/extra_large.jpg",
+            "thumb": "https://cdn.clopos.com/clockcoffee/eb878b4c-0b0c-4191-a222-1ba55b975c76/thumb.jpg",
+            "w": 800,
+            "h": 1200,
+            "blurHash": "LmNJB+t7-pa}~Bf6Rjj[tSWBIoj["
+          }
+        },
+        {
+          "id": 233,
+          "name": "Orange Coffee",
+          "desc": "",
+          "kcal": null,
+          "timer": 1.82,
+          "regular": 6.2,
+          "img": {
+            "card": "https://cdn-2.clopos.com/clockcoffee/cd99b612-c071-40c4-86f5-5eefd4b7a3e3/card43@2x.webp",
+            "cardJpg": "https://cdn-2.clopos.com/clockcoffee/cd99b612-c071-40c4-86f5-5eefd4b7a3e3/card43@2x.jpg",
+            "large": "https://cdn.clopos.com/clockcoffee/cd99b612-c071-40c4-86f5-5eefd4b7a3e3/extra_large.jpg",
+            "thumb": "https://cdn.clopos.com/clockcoffee/cd99b612-c071-40c4-86f5-5eefd4b7a3e3/thumb.jpg",
+            "w": 1082,
+            "h": 608,
+            "blurHash": "L8Gkag$%00Sc00?H?a4:~X4ms8?w"
+          }
+        },
+        {
+          "id": 234,
+          "name": "İced Chai Tea Latte",
+          "desc": "",
+          "kcal": null,
+          "timer": 1.81,
+          "regular": 6,
+          "img": {
+            "card": "https://cdn-2.clopos.com/clockcoffee/e42ac486-0b4d-407d-8d60-488039d92c9a/card43@2x.webp",
+            "cardJpg": "https://cdn-2.clopos.com/clockcoffee/e42ac486-0b4d-407d-8d60-488039d92c9a/card43@2x.jpg",
+            "large": "https://cdn.clopos.com/clockcoffee/e42ac486-0b4d-407d-8d60-488039d92c9a/extra_large.jpg",
+            "thumb": "https://cdn.clopos.com/clockcoffee/e42ac486-0b4d-407d-8d60-488039d92c9a/thumb.jpg",
+            "w": 736,
+            "h": 1472,
+            "blurHash": "L8Ig+N-5cu009Z9vE2Mx5SIUVX_3"
+          }
+        },
+        {
+          "id": 235,
+          "name": "İced Matcha latte",
+          "desc": "",
+          "kcal": null,
+          "timer": 1.62,
+          "regular": 6.5,
+          "img": {
+            "card": "https://cdn-2.clopos.com/clockcoffee/551340cd-5dca-4da8-bfd0-db2f6eab5f24/card43@2x.webp",
+            "cardJpg": "https://cdn-2.clopos.com/clockcoffee/551340cd-5dca-4da8-bfd0-db2f6eab5f24/card43@2x.jpg",
+            "large": "https://cdn.clopos.com/clockcoffee/551340cd-5dca-4da8-bfd0-db2f6eab5f24/extra_large.jpg",
+            "thumb": "https://cdn.clopos.com/clockcoffee/551340cd-5dca-4da8-bfd0-db2f6eab5f24/thumb.jpg",
+            "w": 806,
+            "h": 453,
+            "blurHash": "LLHozE8{?1%eRkxtR%My?b%fM{RQ"
+          }
+        },
+        {
+          "id": 236,
+          "name": "Orange Smoothie",
+          "desc": "",
+          "kcal": null,
+          "timer": 2.42,
+          "regular": 7,
+          "img": {
+            "card": "https://cdn-2.clopos.com/clockcoffee/2f447c68-d283-4b24-9354-f2f1b98ab501/card43@2x.webp",
+            "cardJpg": "https://cdn-2.clopos.com/clockcoffee/2f447c68-d283-4b24-9354-f2f1b98ab501/card43@2x.jpg",
+            "large": "https://cdn.clopos.com/clockcoffee/2f447c68-d283-4b24-9354-f2f1b98ab501/extra_large.jpg",
+            "thumb": "https://cdn.clopos.com/clockcoffee/2f447c68-d283-4b24-9354-f2f1b98ab501/thumb.jpg",
+            "w": 720,
+            "h": 1280,
+            "blurHash": "LJH^Oo0h5p^I5WSNIqR*AJoI}qE3"
+          }
+        },
+        {
+          "id": 237,
+          "name": "Blueberry Smoothie",
+          "desc": "",
+          "kcal": null,
+          "timer": 2.74,
+          "regular": 7,
+          "img": {
+            "card": "https://cdn-2.clopos.com/clockcoffee/4c66ad79-11bc-4fa6-8da7-07a5763d2941/card43@2x.webp",
+            "cardJpg": "https://cdn-2.clopos.com/clockcoffee/4c66ad79-11bc-4fa6-8da7-07a5763d2941/card43@2x.jpg",
+            "large": "https://cdn.clopos.com/clockcoffee/4c66ad79-11bc-4fa6-8da7-07a5763d2941/extra_large.jpg",
+            "thumb": "https://cdn.clopos.com/clockcoffee/4c66ad79-11bc-4fa6-8da7-07a5763d2941/thumb.jpg",
+            "w": 736,
+            "h": 736,
+            "blurHash": "LIG]E$_M.R-=tS.9IBbF.TM}R7In"
+          }
+        },
+        {
+          "id": 238,
+          "name": "MatchaSmoothie",
+          "desc": "",
+          "kcal": null,
+          "timer": 1.82,
+          "regular": 7,
+          "img": {
+            "card": "https://cdn-2.clopos.com/clockcoffee/c7581b86-e1b5-4e0f-879b-6f5f5c4ce3a6/card43@2x.webp",
+            "cardJpg": "https://cdn-2.clopos.com/clockcoffee/c7581b86-e1b5-4e0f-879b-6f5f5c4ce3a6/card43@2x.jpg",
+            "large": "https://cdn.clopos.com/clockcoffee/c7581b86-e1b5-4e0f-879b-6f5f5c4ce3a6/extra_large.jpg",
+            "thumb": "https://cdn.clopos.com/clockcoffee/c7581b86-e1b5-4e0f-879b-6f5f5c4ce3a6/thumb.jpg",
+            "w": 740,
+            "h": 905,
+            "blurHash": "LVL}Z%~p$o9HRXM|M_%2-rV_otx@"
+          }
+        },
+        {
+          "id": 239,
+          "name": "İceTea Peach",
+          "desc": "",
+          "kcal": null,
+          "timer": 1.48,
+          "regular": 6,
+          "img": {
+            "card": "https://cdn-2.clopos.com/clockcoffee/cd28b3d7-232e-4e3c-9a2f-394e4f55d810/card43@2x.webp",
+            "cardJpg": "https://cdn-2.clopos.com/clockcoffee/cd28b3d7-232e-4e3c-9a2f-394e4f55d810/card43@2x.jpg",
+            "large": "https://cdn.clopos.com/clockcoffee/cd28b3d7-232e-4e3c-9a2f-394e4f55d810/extra_large.jpg",
+            "thumb": "https://cdn.clopos.com/clockcoffee/cd28b3d7-232e-4e3c-9a2f-394e4f55d810/thumb.jpg",
+            "w": 1586,
+            "h": 892,
+            "blurHash": "L8K12AAI00~A00Mx%M$x-.JDr;-O"
+          }
+        },
+        {
+          "id": 240,
+          "name": "İceTea Mango",
+          "desc": "",
+          "kcal": null,
+          "timer": 1.48,
+          "regular": 6,
+          "img": {
+            "card": "https://cdn-2.clopos.com/clockcoffee/daf5e09e-dba5-4931-bf97-20bfe1c7a119/card43@2x.webp",
+            "cardJpg": "https://cdn-2.clopos.com/clockcoffee/daf5e09e-dba5-4931-bf97-20bfe1c7a119/card43@2x.jpg",
+            "large": "https://cdn.clopos.com/clockcoffee/daf5e09e-dba5-4931-bf97-20bfe1c7a119/extra_large.jpg",
+            "thumb": "https://cdn.clopos.com/clockcoffee/daf5e09e-dba5-4931-bf97-20bfe1c7a119/thumb.jpg",
+            "w": 361,
+            "h": 361,
+            "blurHash": "LSK,dB6Cp{=rE+xDD*oyyEt7wba$"
+          }
+        },
+        {
+          "id": 241,
+          "name": "İceTea Strawberry",
+          "desc": "",
+          "kcal": null,
+          "timer": 1.56,
+          "regular": 6,
+          "img": {
+            "card": "https://cdn-2.clopos.com/clockcoffee/91284389-a025-4272-a2cd-586a3fe35f5f/card43@2x.webp",
+            "cardJpg": "https://cdn-2.clopos.com/clockcoffee/91284389-a025-4272-a2cd-586a3fe35f5f/card43@2x.jpg",
+            "large": "https://cdn.clopos.com/clockcoffee/91284389-a025-4272-a2cd-586a3fe35f5f/extra_large.jpg",
+            "thumb": "https://cdn.clopos.com/clockcoffee/91284389-a025-4272-a2cd-586a3fe35f5f/thumb.jpg",
+            "w": 1200,
+            "h": 1800,
+            "blurHash": "LvOxzhMd%#Mx?HjFM{oL.mxunOtR"
+          }
+        },
+        {
+          "id": 242,
+          "name": "İceTea Green",
+          "desc": "",
+          "kcal": null,
+          "timer": 1.34,
+          "regular": 6,
+          "img": {
+            "card": "https://cdn-2.clopos.com/clockcoffee/65cac767-7344-4994-91e3-14aad0aca852/card43@2x.webp",
+            "cardJpg": "https://cdn-2.clopos.com/clockcoffee/65cac767-7344-4994-91e3-14aad0aca852/card43@2x.jpg",
+            "large": "https://cdn.clopos.com/clockcoffee/65cac767-7344-4994-91e3-14aad0aca852/extra_large.jpg",
+            "thumb": "https://cdn.clopos.com/clockcoffee/65cac767-7344-4994-91e3-14aad0aca852/thumb.jpg",
+            "w": 600,
+            "h": 600,
+            "blurHash": "LJHCGk-;D?WA00E09Yxu-=t7~pRj"
+          }
+        },
+        {
+          "id": 243,
+          "name": "Mojito",
+          "desc": "",
+          "kcal": null,
+          "timer": 1.92,
+          "regular": 7,
+          "img": {
+            "card": "https://cdn-2.clopos.com/clockcoffee/5dc9adef-6a2b-4061-9440-62e41e000b0d/card43@2x.webp",
+            "cardJpg": "https://cdn-2.clopos.com/clockcoffee/5dc9adef-6a2b-4061-9440-62e41e000b0d/card43@2x.jpg",
+            "large": "https://cdn.clopos.com/clockcoffee/5dc9adef-6a2b-4061-9440-62e41e000b0d/extra_large.jpg",
+            "thumb": "https://cdn.clopos.com/clockcoffee/5dc9adef-6a2b-4061-9440-62e41e000b0d/thumb.jpg",
+            "w": 736,
+            "h": 1107,
+            "blurHash": "L6DcHZ^*02_K.PJ9WS.402-o~n9a"
+          }
+        },
+        {
+          "id": 432,
+          "name": "Apple-kivi soda",
+          "desc": "",
+          "kcal": null,
+          "timer": 2.32,
+          "regular": 6,
+          "img": {
+            "card": "https://cdn-2.clopos.com/clockcoffee/d688914c-66c7-4723-bff8-79b29d876de6/card43@2x.webp",
+            "cardJpg": "https://cdn-2.clopos.com/clockcoffee/d688914c-66c7-4723-bff8-79b29d876de6/card43@2x.jpg",
+            "large": "https://cdn.clopos.com/clockcoffee/d688914c-66c7-4723-bff8-79b29d876de6/extra_large.jpg",
+            "thumb": "https://cdn.clopos.com/clockcoffee/d688914c-66c7-4723-bff8-79b29d876de6/thumb.jpg",
+            "w": 736,
+            "h": 920,
+            "blurHash": "LAAnPi*GHiDl-WMzQotL4aZ;yO--"
+          }
+        },
+        {
+          "id": 454,
+          "name": "Mango passion soda",
+          "desc": "",
+          "kcal": null,
+          "timer": 2.32,
+          "regular": 6,
+          "img": {
+            "card": "https://cdn-2.clopos.com/clockcoffee/d126b122-d379-4e0a-821c-c0f069965bbd/card43@2x.webp",
+            "cardJpg": "https://cdn-2.clopos.com/clockcoffee/d126b122-d379-4e0a-821c-c0f069965bbd/card43@2x.jpg",
+            "large": "https://cdn.clopos.com/clockcoffee/d126b122-d379-4e0a-821c-c0f069965bbd/extra_large.jpg",
+            "thumb": "https://cdn.clopos.com/clockcoffee/d126b122-d379-4e0a-821c-c0f069965bbd/thumb.jpg",
+            "w": 736,
+            "h": 977,
+            "blurHash": "LHIM_y0317}+xpxGRQoy05ov]}Ng"
+          }
+        },
+        {
+          "id": 455,
+          "name": "Strawberry soda",
+          "desc": "",
+          "kcal": null,
+          "timer": 2.32,
+          "regular": 6,
+          "img": {
+            "card": "https://cdn-2.clopos.com/clockcoffee/cb8330fc-58e5-489e-9189-102bc333b06d/card43@2x.webp",
+            "cardJpg": "https://cdn-2.clopos.com/clockcoffee/cb8330fc-58e5-489e-9189-102bc333b06d/card43@2x.jpg",
+            "large": "https://cdn.clopos.com/clockcoffee/cb8330fc-58e5-489e-9189-102bc333b06d/extra_large.jpg",
+            "thumb": "https://cdn.clopos.com/clockcoffee/cb8330fc-58e5-489e-9189-102bc333b06d/thumb.jpg",
+            "w": 736,
+            "h": 1051,
+            "blurHash": "LZOMdBf+y?nPkpbbVsniTefRrXfj"
+          }
+        },
+        {
+          "id": 456,
+          "name": "Orange soda",
+          "desc": "",
+          "kcal": null,
+          "timer": 2.32,
+          "regular": 6,
+          "img": {
+            "card": "https://cdn-2.clopos.com/clockcoffee/1ea57e8d-db64-4684-92c2-47bad09f76ae/card43@2x.webp",
+            "cardJpg": "https://cdn-2.clopos.com/clockcoffee/1ea57e8d-db64-4684-92c2-47bad09f76ae/card43@2x.jpg",
+            "large": "https://cdn.clopos.com/clockcoffee/1ea57e8d-db64-4684-92c2-47bad09f76ae/extra_large.jpg",
+            "thumb": "https://cdn.clopos.com/clockcoffee/1ea57e8d-db64-4684-92c2-47bad09f76ae/thumb.jpg",
+            "w": 1000,
+            "h": 1000,
+            "blurHash": "LaPFMs~UC8XOFr-qM{axTbXAvgRP"
+          }
+        },
+        {
+          "id": 474,
+          "name": "Iced Latte macadamia",
+          "desc": "",
+          "kcal": null,
+          "timer": 1.71,
+          "regular": null,
+          "img": null
+        },
+        {
+          "id": 475,
+          "name": "Frappuccino caramel",
+          "desc": "",
+          "kcal": null,
+          "timer": 2.41,
+          "regular": 7,
+          "img": {
+            "card": "https://cdn-2.clopos.com/clockcoffee/d40dff6a-64ee-4f48-96e3-3c73638e9453/card43@2x.webp",
+            "cardJpg": "https://cdn-2.clopos.com/clockcoffee/d40dff6a-64ee-4f48-96e3-3c73638e9453/card43@2x.jpg",
+            "large": "https://cdn.clopos.com/clockcoffee/d40dff6a-64ee-4f48-96e3-3c73638e9453/extra_large.jpg",
+            "thumb": "https://cdn.clopos.com/clockcoffee/d40dff6a-64ee-4f48-96e3-3c73638e9453/thumb.jpg",
+            "w": 800,
+            "h": 1200,
+            "blurHash": "LhR{iMt7?wM|t7azV@j?%#WCMdt6"
+          }
+        }
+      ]
+    },
+    {
+      "key": "soft-drinks",
+      "title": "Sərinləşdiricilər",
+      "note": null,
+      "items": [
+        {
+          "id": 244,
+          "name": "Coca cola (Coca cola zero)",
+          "desc": "",
+          "kcal": null,
+          "timer": 1.41,
+          "regular": 4,
+          "img": {
+            "card": "https://cdn-2.clopos.com/clockcoffee/6bb41656-ac1f-491b-a4de-ed9181e14f38/card43@2x.webp",
+            "cardJpg": "https://cdn-2.clopos.com/clockcoffee/6bb41656-ac1f-491b-a4de-ed9181e14f38/card43@2x.jpg",
+            "large": "https://cdn.clopos.com/clockcoffee/6bb41656-ac1f-491b-a4de-ed9181e14f38/extra_large.jpg",
+            "thumb": "https://cdn.clopos.com/clockcoffee/6bb41656-ac1f-491b-a4de-ed9181e14f38/thumb.jpg",
+            "w": 736,
+            "h": 736,
+            "blurHash": "L~QbhDoL.mWpW;a|oLjtpIa|a0jt"
+          }
+        },
+        {
+          "id": 245,
+          "name": "Sprite",
+          "desc": "",
+          "kcal": null,
+          "timer": 1.41,
+          "regular": 4,
+          "img": {
+            "card": "https://cdn-2.clopos.com/clockcoffee/db7cc90d-0f74-42bf-a748-c2dcee7390cd/card43@2x.webp",
+            "cardJpg": "https://cdn-2.clopos.com/clockcoffee/db7cc90d-0f74-42bf-a748-c2dcee7390cd/card43@2x.jpg",
+            "large": "https://cdn.clopos.com/clockcoffee/db7cc90d-0f74-42bf-a748-c2dcee7390cd/extra_large.jpg",
+            "thumb": "https://cdn.clopos.com/clockcoffee/db7cc90d-0f74-42bf-a748-c2dcee7390cd/thumb.jpg",
+            "w": 735,
+            "h": 1031,
+            "blurHash": "L56[8Kxr00D,^gn$5ASi4URl?[xr"
+          }
+        },
+        {
+          "id": 246,
+          "name": "Fanta",
+          "desc": "",
+          "kcal": null,
+          "timer": 1.41,
+          "regular": 4,
+          "img": {
+            "card": "https://cdn-2.clopos.com/clockcoffee/fe064ad1-027a-4e5e-b939-5e54e981075a/card43@2x.webp",
+            "cardJpg": "https://cdn-2.clopos.com/clockcoffee/fe064ad1-027a-4e5e-b939-5e54e981075a/card43@2x.jpg",
+            "large": "https://cdn.clopos.com/clockcoffee/fe064ad1-027a-4e5e-b939-5e54e981075a/extra_large.jpg",
+            "thumb": "https://cdn.clopos.com/clockcoffee/fe064ad1-027a-4e5e-b939-5e54e981075a/thumb.jpg",
+            "w": 1024,
+            "h": 1024,
+            "blurHash": "L]RL^Qfk.TjZayfQj[jawIjsS$a}"
+          }
+        },
+        {
+          "id": 247,
+          "name": "Sirab qazlı (premium)",
+          "desc": "",
+          "kcal": null,
+          "timer": 1.81,
+          "regular": 3.8,
+          "img": {
+            "card": "https://cdn-2.clopos.com/clockcoffee/55f44075-2556-48d4-b4d2-52357e6c4166/card43@2x.webp",
+            "cardJpg": "https://cdn-2.clopos.com/clockcoffee/55f44075-2556-48d4-b4d2-52357e6c4166/card43@2x.jpg",
+            "large": "https://cdn.clopos.com/clockcoffee/55f44075-2556-48d4-b4d2-52357e6c4166/extra_large.jpg",
+            "thumb": "https://cdn.clopos.com/clockcoffee/55f44075-2556-48d4-b4d2-52357e6c4166/thumb.jpg",
+            "w": 224,
+            "h": 224,
+            "blurHash": "LFSs50t7~qt7-;fQIUj[RjfQt7fQ"
+          }
+        },
+        {
+          "id": 248,
+          "name": "Sirab qazsız (premium)",
+          "desc": "",
+          "kcal": null,
+          "timer": 1.81,
+          "regular": 3.8,
+          "img": {
+            "card": "https://cdn-2.clopos.com/clockcoffee/f5ae8313-4ebc-4fc6-83e6-99ca8e8400a3/card43@2x.webp",
+            "cardJpg": "https://cdn-2.clopos.com/clockcoffee/f5ae8313-4ebc-4fc6-83e6-99ca8e8400a3/card43@2x.jpg",
+            "large": "https://cdn.clopos.com/clockcoffee/f5ae8313-4ebc-4fc6-83e6-99ca8e8400a3/extra_large.jpg",
+            "thumb": "https://cdn.clopos.com/clockcoffee/f5ae8313-4ebc-4fc6-83e6-99ca8e8400a3/thumb.jpg",
+            "w": 195,
+            "h": 130,
+            "blurHash": "LTS6Svt7~pRj-pWCIoofM|j[xtaf"
+          }
+        },
+        {
+          "id": 249,
+          "name": "Tonik",
+          "desc": "",
+          "kcal": null,
+          "timer": 1.61,
+          "regular": null,
+          "img": {
+            "card": "https://cdn-2.clopos.com/clockcoffee/b6dd9782-9e1e-4573-a819-d3f71397f23b/card43@2x.webp",
+            "cardJpg": "https://cdn-2.clopos.com/clockcoffee/b6dd9782-9e1e-4573-a819-d3f71397f23b/card43@2x.jpg",
+            "large": "https://cdn.clopos.com/clockcoffee/b6dd9782-9e1e-4573-a819-d3f71397f23b/extra_large.jpg",
+            "thumb": "https://cdn.clopos.com/clockcoffee/b6dd9782-9e1e-4573-a819-d3f71397f23b/thumb.jpg",
+            "w": 1024,
+            "h": 1024,
+            "blurHash": "LxSYv+j[yZj[kDfQf5aztSfQROfQ"
+          }
+        },
+        {
+          "id": 250,
+          "name": "Redbull",
+          "desc": "",
+          "kcal": null,
+          "timer": 3.27,
+          "regular": 6,
+          "img": {
+            "card": "https://cdn-2.clopos.com/clockcoffee/40b02f78-0e79-4255-8cda-db6e578e5b44/card43@2x.webp",
+            "cardJpg": "https://cdn-2.clopos.com/clockcoffee/40b02f78-0e79-4255-8cda-db6e578e5b44/card43@2x.jpg",
+            "large": "https://cdn.clopos.com/clockcoffee/40b02f78-0e79-4255-8cda-db6e578e5b44/extra_large.jpg",
+            "thumb": "https://cdn.clopos.com/clockcoffee/40b02f78-0e79-4255-8cda-db6e578e5b44/thumb.jpg",
+            "w": 500,
+            "h": 500,
+            "blurHash": "LrPQ53j[~poLaeWBofxakWayaKj["
+          }
+        },
+        {
+          "id": 466,
+          "name": "Coca cola 0.33ml",
+          "desc": "",
+          "kcal": null,
+          "timer": 1.41,
+          "regular": 4,
+          "img": {
+            "card": "https://cdn-2.clopos.com/clockcoffee/b6f5429c-2533-4ec0-8560-4a017e46745a/card43@2x.webp",
+            "cardJpg": "https://cdn-2.clopos.com/clockcoffee/b6f5429c-2533-4ec0-8560-4a017e46745a/card43@2x.jpg",
+            "large": "https://cdn.clopos.com/clockcoffee/b6f5429c-2533-4ec0-8560-4a017e46745a/extra_large.jpg",
+            "thumb": "https://cdn.clopos.com/clockcoffee/b6f5429c-2533-4ec0-8560-4a017e46745a/thumb.jpg",
+            "w": 917,
+            "h": 1200,
+            "blurHash": "L]R2S%R5.mx]ozj[aeayozj[aKf6"
+          }
+        },
+        {
+          "id": 63,
+          "name": "Tonik (Schweppers)",
+          "desc": "",
+          "kcal": null,
+          "timer": null,
+          "regular": 4.5,
+          "img": {
+            "card": "https://cdn-2.clopos.com/clockcoffee/5342304c-3200-4666-9ba8-0fe96988f5df/card43@2x.webp",
+            "cardJpg": "https://cdn-2.clopos.com/clockcoffee/5342304c-3200-4666-9ba8-0fe96988f5df/card43@2x.jpg",
+            "large": "https://cdn.clopos.com/clockcoffee/5342304c-3200-4666-9ba8-0fe96988f5df/extra_large.jpg",
+            "thumb": "https://cdn.clopos.com/clockcoffee/5342304c-3200-4666-9ba8-0fe96988f5df/thumb.jpg",
+            "w": 195,
+            "h": 130,
+            "blurHash": "L}SYmbj[yZkCj[jtj[azodfQWDfQ"
+          }
+        }
+      ]
+    },
+    {
+      "key": "fresh",
+      "title": "Fresh",
+      "note": null,
+      "items": [
+        {
+          "id": 251,
+          "name": "Orange fresh",
+          "desc": "Təbii portağal suyu",
+          "kcal": null,
+          "timer": 3.21,
+          "regular": 6.5,
+          "img": {
+            "card": "https://cdn-2.clopos.com/clockcoffee/42a329bf-4940-4fee-b399-4440ca4eec6e/card43@2x.webp",
+            "cardJpg": "https://cdn-2.clopos.com/clockcoffee/42a329bf-4940-4fee-b399-4440ca4eec6e/card43@2x.jpg",
+            "large": "https://cdn.clopos.com/clockcoffee/42a329bf-4940-4fee-b399-4440ca4eec6e/extra_large.jpg",
+            "thumb": "https://cdn.clopos.com/clockcoffee/42a329bf-4940-4fee-b399-4440ca4eec6e/thumb.jpg",
+            "w": 736,
+            "h": 1313,
+            "blurHash": "LQN9,y4;GIs7EjtSxYn$CAr:rVXU"
+          }
+        },
+        {
+          "id": 252,
+          "name": "Grapefruit fresh",
+          "desc": "Təbii sıxılmış qreyfrut suyu",
+          "kcal": null,
+          "timer": 5.51,
+          "regular": 8,
+          "img": {
+            "card": "https://cdn-2.clopos.com/clockcoffee/0f0ba6b5-36bb-4a6c-9025-ef6f0de4a024/card43@2x.webp",
+            "cardJpg": "https://cdn-2.clopos.com/clockcoffee/0f0ba6b5-36bb-4a6c-9025-ef6f0de4a024/card43@2x.jpg",
+            "large": "https://cdn.clopos.com/clockcoffee/0f0ba6b5-36bb-4a6c-9025-ef6f0de4a024/extra_large.jpg",
+            "thumb": "https://cdn.clopos.com/clockcoffee/0f0ba6b5-36bb-4a6c-9025-ef6f0de4a024/thumb.jpg",
+            "w": 736,
+            "h": 1308,
+            "blurHash": "LUJiqes+WA$N~BxDNGbY5+$joJOW"
+          }
+        }
+      ]
+    },
+    {
+      "key": "baton",
+      "title": "Bulka & kukilər",
+      "note": null,
+      "items": [
+        {
+          "id": 468,
+          "name": "Kurasan klassik",
+          "desc": "",
+          "kcal": null,
+          "timer": 2.75,
+          "regular": 4.5,
+          "img": {
+            "card": "https://cdn-2.clopos.com/clockcoffee/f482f67b-422c-4f6a-9c08-1e065a9918b6/card43@2x.webp",
+            "cardJpg": "https://cdn-2.clopos.com/clockcoffee/f482f67b-422c-4f6a-9c08-1e065a9918b6/card43@2x.jpg",
+            "large": "https://cdn.clopos.com/clockcoffee/f482f67b-422c-4f6a-9c08-1e065a9918b6/extra_large.jpg",
+            "thumb": "https://cdn.clopos.com/clockcoffee/f482f67b-422c-4f6a-9c08-1e065a9918b6/thumb.jpg",
+            "w": 195,
+            "h": 130,
+            "blurHash": "LVLMFZ~U?uogt7IAxtNGyXXTt7WV"
+          }
+        },
+        {
+          "id": 679,
+          "name": "Cookies pizza",
+          "desc": "",
+          "kcal": null,
+          "timer": 2,
+          "regular": 4.5,
+          "img": {
+            "card": "https://cdn-2.clopos.com/clockcoffee/843396da-3c54-4ac5-b7e6-3cced9504814/card43@2x.webp",
+            "cardJpg": "https://cdn-2.clopos.com/clockcoffee/843396da-3c54-4ac5-b7e6-3cced9504814/card43@2x.jpg",
+            "large": "https://cdn.clopos.com/clockcoffee/843396da-3c54-4ac5-b7e6-3cced9504814/extra_large.jpg",
+            "thumb": "https://cdn.clopos.com/clockcoffee/843396da-3c54-4ac5-b7e6-3cced9504814/thumb.jpg",
+            "w": 768,
+            "h": 1364,
+            "blurHash": "LNO|RvWA-=t7?vozogWB?wWBMxV@"
+          }
+        },
+        {
+          "id": 683,
+          "name": "Red velvet cookies",
+          "desc": "",
+          "kcal": null,
+          "timer": null,
+          "regular": 4.5,
+          "img": {
+            "card": "https://cdn-2.clopos.com/clockcoffee/9fdc23fb-03eb-4bda-bf1e-71fa9c5edce8/card43@2x.webp",
+            "cardJpg": "https://cdn-2.clopos.com/clockcoffee/9fdc23fb-03eb-4bda-bf1e-71fa9c5edce8/card43@2x.jpg",
+            "large": "https://cdn.clopos.com/clockcoffee/9fdc23fb-03eb-4bda-bf1e-71fa9c5edce8/extra_large.jpg",
+            "thumb": "https://cdn.clopos.com/clockcoffee/9fdc23fb-03eb-4bda-bf1e-71fa9c5edce8/thumb.jpg",
+            "w": 768,
+            "h": 1364,
+            "blurHash": "LJMHPxxu.8a}?bWAofof?wj[IAof"
+          }
+        }
+      ]
+    },
+    {
+      "key": "classic-dessert",
+      "title": "Desertlər",
+      "note": null,
+      "items": [
+        {
+          "id": 77,
+          "name": "Honey cake",
+          "desc": "Bal, şəkər tozu, yumurta, un, kərə yağı, bişmiş krem, krempendiri, qatılaşdırılmış süd",
+          "kcal": null,
+          "timer": 2.2,
+          "regular": 8.5,
+          "img": {
+            "card": "https://cdn-2.clopos.com/clockcoffee/7198f102-0c4e-494d-bb3a-24d7189bfd08/card43@2x.webp",
+            "cardJpg": "https://cdn-2.clopos.com/clockcoffee/7198f102-0c4e-494d-bb3a-24d7189bfd08/card43@2x.jpg",
+            "large": "https://cdn.clopos.com/clockcoffee/7198f102-0c4e-494d-bb3a-24d7189bfd08/extra_large.jpg",
+            "thumb": "https://cdn.clopos.com/clockcoffee/7198f102-0c4e-494d-bb3a-24d7189bfd08/thumb.jpg",
+            "w": 1241,
+            "h": 698,
+            "blurHash": "LAGkzW9a00=^~Wt74.M{.8adIAX9"
+          }
+        },
+        {
+          "id": 265,
+          "name": "Crepe Tiramisu",
+          "desc": "Yulaf unlu dietik krep, dietik maskarpone krem, dəmlənmiş qəhvə",
+          "kcal": null,
+          "timer": 4.41,
+          "regular": 8.8,
+          "img": {
+            "card": "https://cdn-2.clopos.com/clockcoffee/b8c84921-09d7-4c63-828e-095a9383cdf6/card43@2x.webp",
+            "cardJpg": "https://cdn-2.clopos.com/clockcoffee/b8c84921-09d7-4c63-828e-095a9383cdf6/card43@2x.jpg",
+            "large": "https://cdn.clopos.com/clockcoffee/b8c84921-09d7-4c63-828e-095a9383cdf6/extra_large.jpg",
+            "thumb": "https://cdn.clopos.com/clockcoffee/b8c84921-09d7-4c63-828e-095a9383cdf6/thumb.jpg",
+            "w": 610,
+            "h": 1356,
+            "blurHash": "LDE{kKM{jsjY-pWAj[oe_4t7nhfQ"
+          }
+        },
+        {
+          "id": 268,
+          "name": "San Sebastian",
+          "desc": "krem pendir, maskarpone pendiri, ağ şəkər tozu, yumurta, qaymaq",
+          "kcal": null,
+          "timer": 3.52,
+          "regular": 8.2,
+          "img": {
+            "card": "https://cdn-2.clopos.com/clockcoffee/e6bcec2d-b9ad-4f0b-ae7c-6723e2cb8901/card43@2x.webp",
+            "cardJpg": "https://cdn-2.clopos.com/clockcoffee/e6bcec2d-b9ad-4f0b-ae7c-6723e2cb8901/card43@2x.jpg",
+            "large": "https://cdn.clopos.com/clockcoffee/e6bcec2d-b9ad-4f0b-ae7c-6723e2cb8901/extra_large.jpg",
+            "thumb": "https://cdn.clopos.com/clockcoffee/e6bcec2d-b9ad-4f0b-ae7c-6723e2cb8901/thumb.jpg",
+            "w": 933,
+            "h": 1600,
+            "blurHash": "LUKwzsae.TofD%ayRjfl00ofH=WC"
+          }
+        },
+        {
+          "id": 479,
+          "name": "Nutella Crepe",
+          "desc": "Yulaf unlu dietik krep, dietik maskarpone krem, banan, nutella şokolad",
+          "kcal": null,
+          "timer": 5.11,
+          "regular": 9,
+          "img": {
+            "card": "https://cdn-2.clopos.com/clockcoffee/519a0a05-aee3-4d66-8534-f9673d738739/card43@2x.webp",
+            "cardJpg": "https://cdn-2.clopos.com/clockcoffee/519a0a05-aee3-4d66-8534-f9673d738739/card43@2x.jpg",
+            "large": "https://cdn.clopos.com/clockcoffee/519a0a05-aee3-4d66-8534-f9673d738739/extra_large.jpg",
+            "thumb": "https://cdn.clopos.com/clockcoffee/519a0a05-aee3-4d66-8534-f9673d738739/thumb.jpg",
+            "w": 1220,
+            "h": 1333,
+            "blurHash": "L7I5JF4._N%0~WDi?b-.0.IU8wWA"
+          }
+        },
+        {
+          "id": 489,
+          "name": "Bluebbery crepe",
+          "desc": "",
+          "kcal": null,
+          "timer": 4.81,
+          "regular": 9,
+          "img": null
+        },
+        {
+          "id": 692,
+          "name": "Tiramisu",
+          "desc": "",
+          "kcal": null,
+          "timer": 3.66,
+          "regular": 8.5,
+          "img": {
+            "card": "https://cdn-2.clopos.com/clockcoffee/30f770a0-814e-4508-b39e-52d3f5507678/card43@2x.webp",
+            "cardJpg": "https://cdn-2.clopos.com/clockcoffee/30f770a0-814e-4508-b39e-52d3f5507678/card43@2x.jpg",
+            "large": "https://cdn.clopos.com/clockcoffee/30f770a0-814e-4508-b39e-52d3f5507678/extra_large.jpg",
+            "thumb": "https://cdn.clopos.com/clockcoffee/30f770a0-814e-4508-b39e-52d3f5507678/thumb.jpg",
+            "w": 1677,
+            "h": 943,
+            "blurHash": "LDGbSC%200oz_3xuD%IU~qt74oM{"
+          }
+        },
+        {
+          "id": 695,
+          "name": "Raspberry pistachio Mille-feuille",
+          "desc": "Krem, bişmiş qatılaşdırılmış süd, moruq püre, un, yumurta, püstə, kərə yağı",
+          "kcal": null,
+          "timer": 3.26,
+          "regular": 8.6,
+          "img": {
+            "card": "https://cdn-2.clopos.com/clockcoffee/e23f75e4-b91e-4331-9dfb-4dd495fc2240/card43@2x.webp",
+            "cardJpg": "https://cdn-2.clopos.com/clockcoffee/e23f75e4-b91e-4331-9dfb-4dd495fc2240/card43@2x.jpg",
+            "large": "https://cdn.clopos.com/clockcoffee/e23f75e4-b91e-4331-9dfb-4dd495fc2240/extra_large.jpg",
+            "thumb": "https://cdn.clopos.com/clockcoffee/e23f75e4-b91e-4331-9dfb-4dd495fc2240/thumb.jpg",
+            "w": 1475,
+            "h": 830,
+            "blurHash": "LBI}CU={00?a^*xYSPx]_NocDiM}"
+          }
+        },
+        {
+          "id": 702,
+          "name": "Lotus mousse",
+          "desc": "",
+          "kcal": null,
+          "timer": 3.92,
+          "regular": 8.5,
+          "img": null
+        },
+        {
+          "id": 718,
+          "name": "Snickers cake",
+          "desc": "Yumurta, südlü şokolad, araxis, bişmiş krem, un, süd, şəkər tozu, kakao",
+          "kcal": null,
+          "timer": 3.35,
+          "regular": 9,
+          "img": {
+            "card": "https://cdn-2.clopos.com/clockcoffee/e74c0c42-143e-48ed-ad69-a758ac247574/card43@2x.webp",
+            "cardJpg": "https://cdn-2.clopos.com/clockcoffee/e74c0c42-143e-48ed-ad69-a758ac247574/card43@2x.jpg",
+            "large": "https://cdn.clopos.com/clockcoffee/e74c0c42-143e-48ed-ad69-a758ac247574/extra_large.jpg",
+            "thumb": "https://cdn.clopos.com/clockcoffee/e74c0c42-143e-48ed-ad69-a758ac247574/thumb.jpg",
+            "w": 835,
+            "h": 1280,
+            "blurHash": "LOKdrNxu~qM{4nWBRjof00M{4nxu"
+          }
+        },
+        {
+          "id": 733,
+          "name": "PaxlavaCheesecake",
+          "desc": "",
+          "kcal": null,
+          "timer": 3.53,
+          "regular": 9,
+          "img": {
+            "card": "https://cdn-2.clopos.com/clockcoffee/5162ba3a-1458-41f6-9da2-9aa6ff1d6963/card43@2x.webp",
+            "cardJpg": "https://cdn-2.clopos.com/clockcoffee/5162ba3a-1458-41f6-9da2-9aa6ff1d6963/card43@2x.jpg",
+            "large": "https://cdn.clopos.com/clockcoffee/5162ba3a-1458-41f6-9da2-9aa6ff1d6963/extra_large.jpg",
+            "thumb": "https://cdn.clopos.com/clockcoffee/5162ba3a-1458-41f6-9da2-9aa6ff1d6963/thumb.jpg",
+            "w": 1177,
+            "h": 1086,
+            "blurHash": "LHO2{X?bt-aK~WRko}RjlAr=Mw%L"
+          }
+        },
+        {
+          "id": 739,
+          "name": "Mixberry magnolia",
+          "desc": "",
+          "kcal": null,
+          "timer": 3.05,
+          "regular": 8.5,
+          "img": {
+            "card": "https://cdn-2.clopos.com/clockcoffee/ccce50ca-2100-43bf-a86c-029b29918042/card43@2x.webp",
+            "cardJpg": "https://cdn-2.clopos.com/clockcoffee/ccce50ca-2100-43bf-a86c-029b29918042/card43@2x.jpg",
+            "large": "https://cdn.clopos.com/clockcoffee/ccce50ca-2100-43bf-a86c-029b29918042/extra_large.jpg",
+            "thumb": "https://cdn.clopos.com/clockcoffee/ccce50ca-2100-43bf-a86c-029b29918042/thumb.jpg",
+            "w": 1086,
+            "h": 1448,
+            "blurHash": "LcP$],WB.8kC.TWBM{of%fozIoae"
+          }
+        },
+        {
+          "id": 744,
+          "name": "Carrot cake sugar free cake",
+          "desc": "",
+          "kcal": null,
+          "timer": 2.56,
+          "regular": 8.5,
+          "img": null
+        },
+        {
+          "id": 73,
+          "name": "Brownie choco walnut",
+          "desc": "",
+          "kcal": null,
+          "timer": null,
+          "regular": 9,
+          "img": {
+            "card": "https://cdn-2.clopos.com/clockcoffee/38f450df-56c7-4286-b464-e00e06422c9d/card43@2x.webp",
+            "cardJpg": "https://cdn-2.clopos.com/clockcoffee/38f450df-56c7-4286-b464-e00e06422c9d/card43@2x.jpg",
+            "large": "https://cdn.clopos.com/clockcoffee/38f450df-56c7-4286-b464-e00e06422c9d/extra_large.jpg",
+            "thumb": "https://cdn.clopos.com/clockcoffee/38f450df-56c7-4286-b464-e00e06422c9d/thumb.jpg",
+            "w": 195,
+            "h": 130,
+            "blurHash": "L[L}1-of~qoLs:j[WWWCozfkWBax"
+          }
+        },
+        {
+          "id": 465,
+          "name": "Marakuya cheesecake",
+          "desc": "krempendiri, yumurta, qaymaq, marakuya",
+          "kcal": null,
+          "timer": null,
+          "regular": 8.8,
+          "img": {
+            "card": "https://cdn-2.clopos.com/clockcoffee/77e9932d-17bf-446f-8f8d-2c9af4020e25/card43@2x.webp",
+            "cardJpg": "https://cdn-2.clopos.com/clockcoffee/77e9932d-17bf-446f-8f8d-2c9af4020e25/card43@2x.jpg",
+            "large": "https://cdn.clopos.com/clockcoffee/77e9932d-17bf-446f-8f8d-2c9af4020e25/extra_large.jpg",
+            "thumb": "https://cdn.clopos.com/clockcoffee/77e9932d-17bf-446f-8f8d-2c9af4020e25/thumb.jpg",
+            "w": 195,
+            "h": 130,
+            "blurHash": "LZR2J5D*LNoyzTozPAWBV{ozV?V?"
+          }
+        },
+        {
+          "id": 658,
+          "name": "Raspberry crepe",
+          "desc": "",
+          "kcal": null,
+          "timer": null,
+          "regular": 9,
+          "img": null
+        }
+      ]
+    },
+    {
+      "key": "extra",
+      "title": "Əlavələr",
+      "note": null,
+      "items": [
+        {
+          "id": 276,
+          "name": "Sirop",
+          "desc": "",
+          "kcal": null,
+          "timer": 0.56,
+          "regular": 2,
+          "img": null
+        },
+        {
+          "id": 277,
+          "name": "Alternativ süd",
+          "desc": "",
+          "kcal": null,
+          "timer": 2.25,
+          "regular": 3.5,
+          "img": null
+        },
+        {
+          "id": 278,
+          "name": "Limon",
+          "desc": "",
+          "kcal": null,
+          "timer": 0.51,
+          "regular": 1,
+          "img": null
+        },
+        {
+          "id": 461,
+          "name": "Decaff coffee",
+          "desc": "",
+          "kcal": null,
+          "timer": 1.71,
+          "regular": 2.5,
+          "img": null
+        },
+        {
+          "id": 520,
+          "name": "Extra shot",
+          "desc": "",
+          "kcal": null,
+          "timer": 0.61,
+          "regular": 1.5,
+          "img": null
+        },
+        {
+          "id": 524,
+          "name": "Lobya",
+          "desc": "",
+          "kcal": null,
+          "timer": 0.44,
+          "regular": 1.5,
+          "img": null
+        },
+        {
+          "id": 529,
+          "name": "Jalo",
+          "desc": "",
+          "kcal": null,
+          "timer": 0.35,
+          "regular": 1.5,
+          "img": null
+        },
+        {
+          "id": 530,
+          "name": "Sezar sousu",
+          "desc": "",
+          "kcal": null,
+          "timer": 0.91,
+          "regular": 2,
+          "img": null
+        },
+        {
+          "id": 531,
+          "name": "Bal limon sous",
+          "desc": "",
+          "kcal": null,
+          "timer": 0.87,
+          "regular": null,
+          "img": null
+        },
+        {
+          "id": 532,
+          "name": "Sezar toyuq",
+          "desc": "",
+          "kcal": null,
+          "timer": 1.31,
+          "regular": 2.5,
+          "img": null
+        },
+        {
+          "id": 533,
+          "name": "Şnitzel toyuq",
+          "desc": "",
+          "kcal": null,
+          "timer": 2.11,
+          "regular": 3,
+          "img": null
+        },
+        {
+          "id": 535,
+          "name": "Pastrami can əti",
+          "desc": "",
+          "kcal": null,
+          "timer": 2.11,
+          "regular": 4,
+          "img": null
+        },
+        {
+          "id": 536,
+          "name": "Tuna balığı",
+          "desc": "",
+          "kcal": null,
+          "timer": 2.71,
+          "regular": 3.5,
+          "img": null
+        },
+        {
+          "id": 537,
+          "name": "Qızılbalıq",
+          "desc": "",
+          "kcal": null,
+          "timer": 4.21,
+          "regular": 8,
+          "img": null
+        },
+        {
+          "id": 538,
+          "name": "Parmezan",
+          "desc": "",
+          "kcal": null,
+          "timer": 0.61,
+          "regular": 2.5,
+          "img": null
+        },
+        {
+          "id": 540,
+          "name": "Choco sous",
+          "desc": "",
+          "kcal": null,
+          "timer": 1.15,
+          "regular": 1.75,
+          "img": null
+        },
+        {
+          "id": 574,
+          "name": "Tost çörək",
+          "desc": "",
+          "kcal": null,
+          "timer": 0.41,
+          "regular": 2,
+          "img": null
+        },
+        {
+          "id": 576,
+          "name": "Servis",
+          "desc": "",
+          "kcal": null,
+          "timer": 5,
+          "regular": null,
+          "img": null
+        },
+        {
+          "id": 583,
+          "name": "Düyü",
+          "desc": "",
+          "kcal": null,
+          "timer": 0.51,
+          "regular": 2.5,
+          "img": null
+        },
+        {
+          "id": 584,
+          "name": "Qaymaq (breakfast)",
+          "desc": "",
+          "kcal": null,
+          "timer": 0.61,
+          "regular": null,
+          "img": null
+        },
+        {
+          "id": 607,
+          "name": "Yumurta",
+          "desc": "",
+          "kcal": null,
+          "timer": 0.25,
+          "regular": 1,
+          "img": null
+        },
+        {
+          "id": 609,
+          "name": "Zeytun yaşıl",
+          "desc": "",
+          "kcal": null,
+          "timer": 0.61,
+          "regular": 1.5,
+          "img": null
+        },
+        {
+          "id": 610,
+          "name": "Zeytun qara",
+          "desc": "",
+          "kcal": null,
+          "timer": 0.61,
+          "regular": 1.5,
+          "img": null
+        },
+        {
+          "id": 621,
+          "name": "Dondurma",
+          "desc": "",
+          "kcal": null,
+          "timer": 0.53,
+          "regular": 1.5,
+          "img": null
+        },
+        {
+          "id": 623,
+          "name": "Püre",
+          "desc": "",
+          "kcal": null,
+          "timer": 1.15,
+          "regular": 2.5,
+          "img": null
+        },
+        {
+          "id": 697,
+          "name": "Cheddar",
+          "desc": "",
+          "kcal": null,
+          "timer": 0.71,
+          "regular": 1.6,
+          "img": null
+        },
+        {
+          "id": 704,
+          "name": "Pistachio sous",
+          "desc": "",
+          "kcal": null,
+          "timer": 1.21,
+          "regular": 1.9,
+          "img": null
+        },
+        {
+          "id": 742,
+          "name": "Feta pendir",
+          "desc": "",
+          "kcal": null,
+          "timer": 0.98,
+          "regular": 2,
+          "img": null
+        },
+        {
+          "id": 93,
+          "name": "Qaymaq",
+          "desc": "",
+          "kcal": null,
+          "timer": null,
+          "regular": 2.5,
+          "img": null
+        },
+        {
+          "id": 766,
+          "name": "Laktozasız süd",
+          "desc": "",
+          "kcal": null,
+          "timer": null,
+          "regular": 1,
+          "img": null
+        }
+      ]
+    }
+  ],
+  "stats": {
+    "sections": 13,
+    "products": 140,
+    "withTimer": 127
+  }
+}

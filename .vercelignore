@@ -1,0 +1,10 @@
+# GPT orijinalları (~20 MB): saytda WebP versiyaları işlənir
+assets/img/src
+# yalnız lokal işlər üçün
+.claude
+server.mjs
+scripts/optimize-images.py
+# Iconly-nin orijinal SVG faylları paylaşılmır (şərtlər); sayt HTML-dəki spraytı işlədir
+assets/icons/iconly
+.env.local
+data/local-store*.json

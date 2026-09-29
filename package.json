@@ -1,0 +1,14 @@
+{
+  "name": "clockcoffee-website",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Clock & Coffee saytı: parallax scroll, canlı menyu qiymətləri, admin panel",
+  "type": "module",
+  "scripts": {
+    "start": "node server.mjs",
+    "scrape": "node scripts/scrape-menu.mjs"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

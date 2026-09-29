@@ -1,0 +1,605 @@
+<!doctype html>
+<html lang="az" class="no-js">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Clock &amp; Coffee · Vaxta görə ödə, qəhvəni maya dəyərinə iç</title>
+  <meta name="description" content="Clock &amp; Coffee: Bakıda Timer konseptli kofe məkanı. İlk saat 6₼, hər əlavə saat 1₼. Timer aktiv olduğu müddətdə bütün menyu maya dəyərinə. Coffee • Work • Meet.">
+  <meta name="theme-color" content="#0E2A1D">
+  <meta property="og:title" content="Clock &amp; Coffee · Vaxta görə ödə">
+  <meta property="og:description" content="İlk saat 6₼, hər əlavə saat 1₼. Menyu maya dəyərinə. Abbas Səhhət 45 və Xətai filialı.">
+  <meta property="og:type" content="website">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Ccircle cx='32' cy='32' r='30' fill='%230E2A1D'/%3E%3Ccircle cx='32' cy='32' r='22' fill='none' stroke='%23F4ECDB' stroke-width='4'/%3E%3Cpath d='M32 18v14l9 6' stroke='%23D5F05A' stroke-width='5' stroke-linecap='round' fill='none'/%3E%3C/svg%3E">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://cdn-2.clopos.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght,SOFT@0,9..144,300..900,0..100;1,9..144,300..900,0..100&family=Kaushan+Script&family=Plus+Jakarta+Sans:ital,wght@0,400..800;1,400..800&display=swap">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script>
+    document.documentElement.classList.replace('no-js', 'js');
+    if (navigator.userAgentData) document.documentElement.classList.add('is-chromium');
+  </script>
+</head>
+<body>
+
+  <!-- ===== SVG sprite + filters ===== -->
+  <svg class="sprite" aria-hidden="true" focusable="false">
+    <defs>
+      <!-- Loqo (ağ fonda qara JPG): şəffaf fonlu, istənilən rəngdə -->
+      <filter id="ink-cream" color-interpolation-filters="sRGB">
+        <feColorMatrix type="matrix" values="0 0 0 0 0.957  0 0 0 0 0.925  0 0 0 0 0.859  -0.2126 -0.7152 -0.0722 1 0"/>
+        <feComponentTransfer><feFuncA type="linear" slope="1.5" intercept="-0.2"/></feComponentTransfer>
+      </filter>
+      <filter id="ink-green" color-interpolation-filters="sRGB">
+        <feColorMatrix type="matrix" values="0 0 0 0 0.055  0 0 0 0 0.165  0 0 0 0 0.114  -0.2126 -0.7152 -0.0722 1 0"/>
+        <feComponentTransfer><feFuncA type="linear" slope="1.5" intercept="-0.2"/></feComponentTransfer>
+      </filter>
+      <filter id="ink-lime" color-interpolation-filters="sRGB">
+        <feColorMatrix type="matrix" values="0 0 0 0 0.835  0 0 0 0 0.941  0 0 0 0 0.353  -0.2126 -0.7152 -0.0722 1 0"/>
+        <feComponentTransfer><feFuncA type="linear" slope="1.5" intercept="-0.2"/></feComponentTransfer>
+      </filter>
+      <!-- Liquid glass: arxa fonu yüngülcə "sındıran" filtr (Chromium) -->
+      <filter id="lg-refract" x="0" y="0" width="100%" height="100%" color-interpolation-filters="sRGB">
+        <feTurbulence type="fractalNoise" baseFrequency="0.011 0.018" numOctaves="2" seed="4" result="noise"/>
+        <feGaussianBlur in="noise" stdDeviation="1.6" result="soft"/>
+        <feDisplacementMap in="SourceGraphic" in2="soft" scale="22" xChannelSelector="R" yChannelSelector="G"/>
+      </filter>
+      <!-- İkonlar: Iconly Essential (pulsuz dəst, web.iconly.pro), assets/icons/iconly -->
+      <symbol id="i-arrow" viewBox="0 0 24 24" fill="none"><path d="M19.75 11.7257L4.75 11.7257" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/><path d="M13.6997 5.70124C13.6997 5.70124 19.7497 8.96224 19.7497 11.7242C19.7497 14.4882 13.6997 17.7502 13.6997 17.7502" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+      <symbol id="i-arrow-ur" viewBox="0 0 24 24" fill="none"><g transform="rotate(-45 12 12)"><path d="M19.75 11.7257L4.75 11.7257" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/><path d="M13.6997 5.70124C13.6997 5.70124 19.7497 8.96224 19.7497 11.7242C19.7497 14.4882 13.6997 17.7502 13.6997 17.7502" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></g></symbol>
+      <symbol id="i-pin" viewBox="0 0 24 24" fill="none"><path fill-rule="evenodd" clip-rule="evenodd" d="M14.5103 10.7105C14.5103 9.3292 13.391 8.20996 12.0097 8.20996C10.6295 8.20996 9.51025 9.3292 9.51025 10.7105C9.51025 12.0907 10.6295 13.21 12.0097 13.21C13.391 13.21 14.5103 12.0907 14.5103 10.7105Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/><path fill-rule="evenodd" clip-rule="evenodd" d="M11.9995 21C9.10148 21 4.5 15.9587 4.5 10.5986C4.5 6.40246 7.8571 3 11.9995 3C16.1419 3 19.5 6.40246 19.5 10.5986C19.5 15.9587 14.8985 21 11.9995 21Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+      <symbol id="i-pin-b" viewBox="0 0 25 24" fill="none"><path fill-rule="evenodd" clip-rule="evenodd" d="M12.26 13.573C10.681 13.573 9.397 12.289 9.397 10.71C9.397 9.131 10.681 7.847 12.26 7.847C13.839 7.847 15.124 9.131 15.124 10.71C15.124 12.289 13.839 13.573 12.26 13.573ZM12.25 2.5C7.839 2.5 4.25 6.133 4.25 10.599C4.25 16.007 8.904 21.5 12.25 21.5C15.595 21.5 20.25 16.007 20.25 10.599C20.25 6.133 16.661 2.5 12.25 2.5Z" fill="currentColor"/></symbol>
+      <symbol id="i-phone" viewBox="0 0 24 24" fill="none"><path fill-rule="evenodd" clip-rule="evenodd" d="M8.20049 15.799C1.3025 8.90022 2.28338 5.74115 3.01055 4.72316C3.10396 4.55862 5.40647 1.11188 7.87459 3.13407C14.0008 8.17945 6.2451 7.46611 11.3894 12.6113C16.5348 17.7554 15.8214 9.99995 20.8659 16.1249C22.8882 18.594 19.4413 20.8964 19.2778 20.9888C18.2598 21.717 15.0995 22.6978 8.20049 15.799Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+      <symbol id="i-chat" viewBox="0 0 24 24" fill="none"><path d="M15.9393 12.413H15.9483" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M11.9304 12.413H11.9394" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M7.9214 12.413H7.9304" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path fill-rule="evenodd" clip-rule="evenodd" d="M19.071 19.0698C16.0159 22.1264 11.4896 22.7867 7.78631 21.074C7.23961 20.8539 3.70113 21.8339 2.93334 21.067C2.16555 20.2991 3.14639 16.7601 2.92631 16.2134C1.21285 12.5106 1.87411 7.9826 4.9302 4.9271C8.83147 1.0243 15.1698 1.0243 19.071 4.9271C22.9803 8.83593 22.9723 15.1681 19.071 19.0698Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+      <symbol id="i-whatsapp" viewBox="0 0 24 24" fill="none"><path d="M7.94939 20.0368C7.73048 19.9268 7.49016 19.8889 7.25179 19.9453C6.44132 20.136 5.13368 20.462 4.18213 20.7013C3.64117 20.8375 3.14886 20.3559 3.27437 19.813C3.5108 18.7875 3.83868 17.3612 3.99435 16.648C4.043 16.4262 4.01284 16.1975 3.91652 15.9922C3.34637 14.7712 3 13.4198 3 12.0002C3 6.48846 8.02139 2.09267 13.7151 3.16097C17.2926 3.8323 20.1677 6.70834 20.839 10.2849C21.9073 15.9786 17.5115 21 11.9998 21C10.59 21 9.18115 20.6595 7.94939 20.0368Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/><path d="M8.60085 8.46082C7.2144 9.85408 8.26518 12.0675 10.1138 13.9161C11.9624 15.7648 14.1408 16.7805 15.5341 15.3941L15.6625 15.2656C16.221 14.7081 16.1393 13.7809 15.4923 13.3295C15.2831 13.1845 15.0642 13.0308 14.8316 12.8683C14.3286 12.5151 13.6407 12.5696 13.2058 13.0025L12.9704 13.2361C11.9575 12.6328 11.4438 12.0529 10.7598 11.0255L10.9933 10.7901C11.4253 10.3542 11.4798 9.6663 11.1276 9.16329C10.9641 8.93075 10.8114 8.71184 10.6655 8.50266C10.215 7.85565 9.28775 7.77489 8.72928 8.33239L8.60085 8.46082Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+      <symbol id="i-insta" viewBox="0 0 24 24" fill="none"><path d="M7.78216 3H16.2169C19.165 3 21 5.08119 21 8.02638V15.9736C21 18.9188 19.165 21 16.2159 21H7.78216C4.83405 21 3 18.9188 3 15.9736V8.02638C3 5.08119 4.84281 3 7.78216 3Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/><path d="M11.8445 8.82812C9.91023 8.82812 8.3418 10.3966 8.3418 12.3308C8.3418 14.2651 9.91023 15.8335 11.8445 15.8335C13.7788 15.8335 15.3472 14.2651 15.3472 12.3308C15.3472 10.3966 13.7788 8.82812 11.8445 8.82812Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/><path d="M16.8661 7.36374V7.43274V7.36374ZM17.1481 7.37875C17.1481 7.53575 17.0211 7.66275 16.8641 7.66275C16.7071 7.66275 16.5791 7.53575 16.5791 7.37875C16.5791 7.22175 16.7071 7.09375 16.8641 7.09375C17.0211 7.09375 17.1481 7.22175 17.1481 7.37875Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+      <symbol id="i-clock" viewBox="0 0 24 24" fill="none"><path fill-rule="evenodd" clip-rule="evenodd" d="M21.2498 12.0001C21.2498 17.1081 17.1088 21.2501 11.9998 21.2501C6.89176 21.2501 2.74976 17.1081 2.74976 12.0001C2.74976 6.89112 6.89176 2.75012 11.9998 2.75012C17.1088 2.75012 21.2498 6.89112 21.2498 12.0001Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/><path d="M16.1906 12.7672L11.6606 12.6932V7.84619" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+      <symbol id="i-time-b" viewBox="0 0 25 24" fill="none"><path fill-rule="evenodd" clip-rule="evenodd" d="M16.441 13.517H16.428L11.899 13.444C11.489 13.437 11.161 13.103 11.161 12.694V7.846C11.161 7.432 11.497 7.096 11.911 7.096C12.325 7.096 12.661 7.432 12.661 7.846V11.955L16.453 12.017C16.867 12.024 17.197 12.365 17.191 12.779C17.184 13.189 16.849 13.517 16.441 13.517ZM12.25 2.25C6.874 2.25 2.5 6.624 2.5 12C2.5 17.376 6.874 21.75 12.25 21.75C17.626 21.75 22 17.376 22 12C22 6.624 17.626 2.25 12.25 2.25Z" fill="currentColor"/></symbol>
+      <symbol id="i-home" viewBox="0 0 24 24" fill="none"><path d="M9.07874 16.1354H14.8937" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/><path fill-rule="evenodd" clip-rule="evenodd" d="M2.40002 13.713C2.40002 8.082 3.01402 8.475 6.31902 5.41C7.76502 4.246 10.015 2 11.958 2C13.9 2 16.195 4.235 17.654 5.41C20.959 8.475 21.572 8.082 21.572 13.713C21.572 22 19.613 22 11.986 22C4.35903 22 2.40002 22 2.40002 13.713Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+      <symbol id="i-home-b" viewBox="0 0 25 24" fill="none"><path fill-rule="evenodd" clip-rule="evenodd" d="M15.1581 16.885H9.34306C8.92906 16.885 8.59306 16.549 8.59306 16.135C8.59306 15.721 8.92906 15.385 9.34306 15.385H15.1581C15.5721 15.385 15.9081 15.721 15.9081 16.135C15.9081 16.549 15.5721 16.885 15.1581 16.885ZM19.4991 6.158C19.1361 5.838 18.7231 5.476 18.2311 5.021C18.0081 4.841 17.7641 4.635 17.5051 4.417C16.0451 3.186 14.0451 1.5 12.2221 1.5C10.4201 1.5 8.54906 3.092 7.04606 4.371C6.76806 4.607 6.50806 4.829 6.24306 5.044C5.77706 5.476 5.36406 5.839 5.00006 6.16C2.61306 8.261 2.16406 8.812 2.16406 13.713C2.16406 22.5 4.70506 22.5 12.2501 22.5C19.7941 22.5 22.3361 22.5 22.3361 13.713C22.3361 8.811 21.8871 8.26 19.4991 6.158Z" fill="currentColor"/></symbol>
+      <symbol id="i-paper" viewBox="0 0 24 24" fill="none"><path d="M14.3053 15.4498H8.90527" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/><path d="M12.2604 11.4385H8.90442" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/><path fill-rule="evenodd" clip-rule="evenodd" d="M20.1598 8.29988L14.4898 2.89988C13.7598 2.79988 12.9398 2.74988 12.0398 2.74988C5.74978 2.74988 3.64978 5.06988 3.64978 11.9999C3.64978 18.9399 5.74978 21.2499 12.0398 21.2499C18.3398 21.2499 20.4398 18.9399 20.4398 11.9999C20.4398 10.5799 20.3498 9.34988 20.1598 8.29988Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/><path d="M13.9342 2.83252V5.49352C13.9342 7.35152 15.4402 8.85652 17.2982 8.85652H20.2492" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+      <symbol id="i-paper-b" viewBox="0 0 25 24" fill="none"><path fill-rule="evenodd" clip-rule="evenodd" d="M17.26 8.674C15.614 8.674 14.27 7.34 14.27 5.694V3.652L19.552 8.674H17.26ZM14.088 16.292H8.68898C8.27498 16.292 7.93898 15.956 7.93898 15.542C7.93898 15.128 8.27498 14.792 8.68898 14.792H14.088C14.503 14.792 14.838 15.128 14.838 15.542C14.838 15.956 14.503 16.292 14.088 16.292ZM8.68698 10.781H12.043C12.457 10.781 12.793 11.117 12.793 11.531C12.793 11.946 12.457 12.281 12.043 12.281H8.68698C8.27298 12.281 7.93698 11.946 7.93698 11.531C7.93698 11.117 8.27298 10.781 8.68698 10.781ZM20.955 8.85C20.955 8.81 20.955 8.78 20.945 8.74C20.915 8.56 20.885 8.38 20.855 8.21C20.835 8.1 20.785 8.01 20.705 7.93L15.035 2.53C14.965 2.46 14.865 2.41 14.765 2.4C14.595 2.38 14.415 2.36 14.235 2.34C14.205 2.33 14.165 2.33 14.135 2.33C13.555 2.28 12.915 2.25 12.245 2.25C5.68498 2.25 3.35498 4.8 3.35498 12C3.35498 19.19 5.68498 21.75 12.245 21.75C18.815 21.75 21.145 19.19 21.145 12C21.145 10.8 21.085 9.76 20.955 8.85Z" fill="currentColor"/></symbol>
+      <symbol id="i-star" viewBox="0 0 25 24" fill="none"><path fill-rule="evenodd" clip-rule="evenodd" d="M21.6815 9.72949C21.2945 8.08349 19.5765 7.99849 18.1955 7.92949C17.3265 7.88549 16.4275 7.84149 16.0515 7.45249C15.6685 7.05649 15.3695 6.29749 15.0785 5.56349C14.5115 4.12749 13.8685 2.50049 12.2495 2.50049C10.6315 2.50049 9.98953 4.12749 9.42153 5.56349C9.13153 6.29749 8.83153 7.05649 8.44953 7.45249C8.07253 7.84149 7.17353 7.88549 6.30453 7.92949C4.92353 7.99849 3.20553 8.08349 2.81853 9.72949C2.45153 11.2915 3.59853 12.2365 4.61053 13.0705C5.30253 13.6405 5.95653 14.1805 6.10153 14.8405C6.24253 15.4815 6.03053 16.3095 5.82553 17.1115C5.47353 18.4905 5.07353 20.0525 6.40853 21.0595C6.82553 21.3745 7.24853 21.4995 7.66653 21.4995C8.57153 21.4995 9.45353 20.9155 10.2085 20.4155C10.9075 19.9535 11.6305 19.4745 12.2495 19.4745C12.8685 19.4745 13.5925 19.9535 14.2905 20.4155C15.3955 21.1465 16.7695 22.0545 18.0925 21.0595C19.4275 20.0525 19.0275 18.4895 18.6745 17.1095C18.4695 16.3085 18.2585 15.4805 18.3985 14.8405C18.5435 14.1805 19.1975 13.6415 19.8895 13.0705C20.9015 12.2365 22.0485 11.2915 21.6815 9.72949Z" fill="currentColor"/></symbol>
+      <symbol id="i-metro" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9.5" fill="none" stroke="currentColor" stroke-width="2"/><path d="M7.5 16V8.5l4.5 5.5 4.5-5.5V16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+      <symbol id="i-plus" viewBox="0 0 24 24"><path d="M12 5v14M5 12h14" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/></symbol>
+      <symbol id="i-minus" viewBox="0 0 24 24"><path d="M5 12h14" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/></symbol>
+    </defs>
+  </svg>
+
+  <!-- ===== Preloader ===== -->
+  <div class="loader" aria-hidden="true">
+    <div class="loader__inner">
+      <svg class="loader__clock" viewBox="0 0 120 120">
+        <circle cx="60" cy="60" r="54" class="loader__face"/>
+        <g class="loader__ticks"></g>
+        <line x1="60" y1="60" x2="60" y2="30" class="loader__hand loader__hand--h"/>
+        <line x1="60" y1="60" x2="60" y2="16" class="loader__hand loader__hand--m"/>
+        <circle cx="60" cy="60" r="4.5" class="loader__pin"/>
+      </svg>
+      <div class="loader__count"><span data-loader-count>00</span><small>%</small></div>
+      <p class="loader__text">Qəhvə dəmlənir…</p>
+    </div>
+    <div class="loader__curtain"></div>
+  </div>
+
+  <div class="announce" role="status" data-announce hidden>
+    <span class="announce__dot" aria-hidden="true"></span>
+    <p data-announce-text></p>
+    <button type="button" class="announce__close" aria-label="Elanı bağla" data-announce-close>
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 7l10 10M17 7 7 17" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+    </button>
+  </div>
+
+  <div class="cursor" aria-hidden="true"><span class="cursor__label"></span></div>
+  <div class="grain" aria-hidden="true"></div>
+
+  <!-- ===== Naviqasiya ===== -->
+  <header class="nav" data-nav>
+    <a class="nav__brand" href="#top" aria-label="Clock &amp; Coffee, ana səhifə">
+      <img class="logo-ink" src="https://cdn.clopos.com/clockcoffee/e3500870-ce5a-4029-92e8-8174d28c667e/original.jpg" alt="" width="46" height="46" data-logo>
+      <span class="nav__word">Clock<em>&amp;</em>Coffee</span>
+    </a>
+    <nav class="nav__links" aria-label="Əsas naviqasiya">
+      <a href="#konsept" data-cms="nav.link1" data-cms-label="Naviqasiya: 1-ci bənd">Konsept</a>
+      <a href="#timer" data-cms="nav.link2" data-cms-label="Naviqasiya: 2-ci bənd">Timer</a>
+      <a href="#menyu" data-cms="nav.link3" data-cms-label="Naviqasiya: 3-ci bənd">Menyu</a>
+      <a href="#mekan" data-cms="nav.link4" data-cms-label="Naviqasiya: 4-ci bənd">Məkan</a>
+      <a href="#filiallar" data-cms="nav.link5" data-cms-label="Naviqasiya: 5-ci bənd">Filiallar</a>
+    </nav>
+    <a class="btn btn--lime btn--sm nav__cta" href="https://wa.me/994504157207" target="_blank" rel="noopener" data-magnetic data-cms="contact.waMain" data-cms-kind="waurl" data-cms-label="WhatsApp nömrəsi (əsas filial)">
+      <svg class="icon"><use href="#i-whatsapp"/></svg><span>WhatsApp</span>
+    </a>
+    <button class="nav__burger" type="button" aria-expanded="false" aria-controls="mnav" aria-label="Menyunu aç">
+      <span></span><span></span>
+    </button>
+  </header>
+
+  <div class="mnav" id="mnav" data-mnav>
+    <nav aria-label="Mobil naviqasiya">
+      <a href="#konsept" data-cms="nav.link1" data-cms-label="Naviqasiya: 1-ci bənd">Konsept</a>
+      <a href="#timer" data-cms="nav.link2" data-cms-label="Naviqasiya: 2-ci bənd">Timer</a>
+      <a href="#menyu" data-cms="nav.link3" data-cms-label="Naviqasiya: 3-ci bənd">Menyu</a>
+      <a href="#mekan" data-cms="nav.link4" data-cms-label="Naviqasiya: 4-ci bənd">Məkan</a>
+      <a href="#filiallar" data-cms="nav.link5" data-cms-label="Naviqasiya: 5-ci bənd">Filiallar</a>
+    </nav>
+    <div class="mnav__foot">
+      <a href="tel:+994504157207" data-cms="contact.phone1" data-cms-kind="tel" data-cms-label="Telefon 1 (əsas filial)">050 415 72 07</a>
+      <a href="https://www.instagram.com/clockcoffee__/" target="_blank" rel="noopener" data-cms="contact.instagram" data-cms-kind="url" data-cms-label="Instagram ünvanı">@clockcoffee__</a>
+    </div>
+  </div>
+
+  <main>
+
+    <!-- ===== HERO: saat-fincan + orbitdə fırlanan PNG məhsullar ===== -->
+    <section class="hero" id="top" data-theme="dark">
+      <div class="hero__bg" aria-hidden="true">
+        <div class="hero__glow"></div>
+        <div class="hero__bigword" data-hero-bigword>Clock</div>
+      </div>
+
+      <div class="container hero__grid">
+        <div class="hero__copy" data-hero-copy>
+          <p class="eyebrow hero__eyebrow"><span class="pulse"></span><span data-cms="hero.eyebrow" data-cms-label="Hero: yuxarıdakı kiçik yazı">Bakı · Timer konseptli kofe məkanı</span></p>
+          <h1 class="hero__title">
+            <span class="line"><span class="line__in" data-cms="hero.title1" data-cms-kind="rich" data-cms-label="Hero başlıq: 1-ci sətir">Vaxta görə ödə,</span></span>
+            <span class="line"><span class="line__in" data-cms="hero.title2" data-cms-kind="rich" data-cms-label="Hero başlıq: 2-ci sətir">qəhvəni isə</span></span>
+            <span class="line"><span class="line__in" data-cms="hero.title3" data-cms-kind="rich" data-cms-label="Hero başlıq: 3-cü sətir"><em class="script">maya dəyərinə iç.</em></span></span>
+          </h1>
+          <p class="hero__lead" data-cms="hero.lead" data-cms-label="Hero: alt mətn">İş, görüş və ya sadəcə söhbət üçün rahat məkan. Timer-i başlat, istədiyin qədər qal.</p>
+          <div class="hero__actions">
+            <a class="btn btn--lime" href="#menyu" data-magnetic><span data-cms="hero.btn1" data-cms-label="Hero: 1-ci düymə">Menyuya bax</span> <svg class="icon"><use href="#i-arrow"/></svg></a>
+            <a class="btn btn--ghost" href="#timer" data-magnetic data-cms="hero.btn2" data-cms-label="Hero: 2-ci düymə">Necə işləyir?</a>
+          </div>
+          <ul class="hero__chips">
+            <li><b><span data-tariff="first">6</span>₼</b><span data-cms="hero.chip1" data-cms-label="Hero: 1-ci etiket (tarif yazısı)">ilk saat</span></li>
+            <li><b><span data-tariff="extra">1</span>₼</b><span data-cms="hero.chip2" data-cms-label="Hero: 2-ci etiket">hər növbəti saat</span></li>
+            <li><b data-cms="hero.chip3num" data-cms-label="Hero: 3-cü etiket rəqəmi">0%</b><span data-cms="hero.chip3" data-cms-label="Hero: 3-cü etiket">menyudan qazanc</span></li>
+          </ul>
+        </div>
+
+        <div class="hero__visual" data-hero-visual>
+          <div class="clockcup" data-clockcup>
+            <div class="clockcup__ring" aria-hidden="true">
+              <svg class="ring__face" viewBox="0 0 600 600">
+                <circle cx="300" cy="300" r="262" class="ring__line"/>
+                <g class="ring__ticks" data-ticks></g>
+                <g class="ring__nums">
+                  <text x="300" y="72">12</text>
+                  <text x="532" y="309">3</text>
+                  <text x="300" y="548">6</text>
+                  <text x="68" y="309">9</text>
+                </g>
+              </svg>
+              <!-- yazı halqası ayrıca qatda fırlanır (CSS animasiyası, GPU); SVG-nin özü yox, div fırlanır -->
+              <div class="ring__spin">
+                <svg viewBox="0 0 600 600">
+                  <defs><path id="ring-path" d="M300 300m-282 0a282 282 0 1 1 564 0a282 282 0 1 1-564 0"/></defs>
+                  <g class="ring__text">
+                    <text><textPath href="#ring-path" textLength="1740" lengthAdjust="spacing">CLOCK &amp; COFFEE • ABBAS SƏHHƏT 45 • XOCALI PROSPEKTİ 29 • COFFEE • WORK • MEET •</textPath></text>
+                  </g>
+                </svg>
+              </div>
+            </div>
+            <div class="clockcup__cup">
+              <img src="assets/img/hero-cup.webp" alt="Yuxarıdan görünən kapuçino, latte art ilə" width="1100" height="1100" data-optional>
+            </div>
+            <!-- hər əqrəb ayrıca qatdır: fırlanma yalnız GPU-da olur, fincan yenidən çəkilmir -->
+            <div class="clockcup__hands" aria-hidden="true">
+              <svg class="hand hand--hour" data-hand="h" viewBox="0 0 600 600"><rect x="292" y="178" width="16" height="136" rx="8"/></svg>
+              <svg class="hand hand--min" data-hand="m" viewBox="0 0 600 600"><rect x="294.5" y="112" width="11" height="202" rx="5.5"/></svg>
+              <svg class="hand hand--sec" data-hand="s" viewBox="0 0 600 600"><rect x="298.5" y="92" width="3" height="244" rx="1.5"/><circle cx="300" cy="118" r="7"/><circle cx="300" cy="300" r="13" class="hand__pin"/></svg>
+            </div>
+          </div>
+
+          <!-- Orbit: məhsullar saat rəqəmləri kimi fincanın ətrafında fırlanır -->
+          <div class="orbit" data-orbit aria-hidden="true">
+            <img class="orbit__item orbit__item--latte" src="assets/img/iced-latte.webp" alt="" data-angle="-58" data-r="0.9" data-depth="1.15" data-spin="-18" data-optional>
+            <img class="orbit__item orbit__item--croissant" src="assets/img/croissant.webp" alt="" data-angle="48" data-r="0.94" data-depth="1.35" data-spin="24" data-optional>
+            <img class="orbit__item orbit__item--beans" src="assets/img/coffee-beans.webp" alt="" data-angle="112" data-r="0.9" data-depth="1.8" data-spin="90" data-optional>
+            <img class="orbit__item orbit__item--branch" src="assets/img/coffee-branch.webp" alt="" data-angle="208" data-r="0.9" data-depth="1.5" data-spin="-30" data-optional>
+            <img class="orbit__item orbit__item--beans-sm" src="assets/img/coffee-beans.webp" alt="" data-angle="-122" data-r="1.02" data-depth="2.3" data-spin="140" data-optional>
+            <img class="orbit__item orbit__item--sandwich" src="assets/img/sandwich.webp" alt="" data-angle="158" data-r="0.92" data-depth="1.25" data-spin="16" data-optional>
+          </div>
+        </div>
+      </div>
+
+      <a class="hero__scroll" href="#konsept" aria-label="Aşağı sürüşdür"><span>Aşağı sürüşdür</span><i></i></a>
+    </section>
+
+    <!-- ===== Marquee ===== -->
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee__track" data-marquee>
+        <div class="marquee__group">
+          <span data-cms="marquee.w1" data-cms-label="Zolaq: 1-ci söz">Coffee</span><svg class="icon"><use href="#i-star"/></svg>
+          <span data-cms="marquee.w2" data-cms-label="Zolaq: 2-ci söz">Work</span><svg class="icon"><use href="#i-star"/></svg>
+          <span data-cms="marquee.w3" data-cms-label="Zolaq: 3-ci söz">Meet</span><svg class="icon"><use href="#i-star"/></svg>
+          <span data-cms="marquee.w4" data-cms-label="Zolaq: 4-ci söz">Rahat otur</span><svg class="icon"><use href="#i-star"/></svg>
+          <span data-cms="marquee.w5" data-cms-label="Zolaq: 5-ci söz">İşini gör</span><svg class="icon"><use href="#i-star"/></svg>
+          <span data-cms="marquee.w6" data-cms-label="Zolaq: 6-ci söz">Söhbət uzansın</span><svg class="icon"><use href="#i-star"/></svg>
+        </div>
+      </div>
+    </div>
+
+    <!-- ===== Konsept ===== -->
+    <section class="manifesto parchment" id="konsept" data-theme="light">
+      <img class="drift drift--croissant" src="assets/img/croissant.webp" alt="" data-drift data-y="-220" data-r="38" data-x="-40" data-optional>
+      <img class="drift drift--beans-a" src="assets/img/coffee-beans.webp" alt="" data-drift data-y="-320" data-r="-120" data-optional>
+      <div class="container manifesto__inner">
+        <p class="eyebrow eyebrow--dark" data-cms="manifesto.eyebrow" data-cms-label="Konsept: kiçik yazı">Konsept</p>
+        <h2 class="manifesto__text" data-words data-cms="manifesto.text" data-cms-kind="rich" data-cms-label="Konsept: böyük mətn">Biz qiymətləri <em>şəffaf</em> etdik. Sən vaxta görə ödəyirsən, yemək və içkilər isə <em>maya dəyərinədir.</em></h2>
+        <div class="manifesto__foot">
+          <p data-cms="manifesto.foot" data-cms-label="Konsept: alt mətn">Görüş, söhbət, iş və ya sadəcə kofe üçün vaxtınıza dəyər verən məkan.</p>
+          <span class="stamp" data-stamp data-cms="manifesto.stamp" data-cms-label="Konsept: möhür yazısı">Yeni qayda</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Sezar hekayəsi ===== -->
+    <section class="caesar parchment" data-theme="light" data-caesar>
+      <img class="drift drift--branch" src="assets/img/coffee-branch.webp" alt="" data-drift data-y="-260" data-r="-28" data-x="60" data-optional>
+      <div class="container caesar__grid">
+        <figure class="caesar__photo">
+          <div class="caesar__plate" data-caesar-plate>
+            <img class="caesar__bowl" src="assets/img/caesar.webp" alt="Klassik sezar salatı" data-optional data-caesar-bowl>
+            <div class="caesar__img">
+              <img alt="Klassik sezar salatı" data-caesar-img loading="lazy">
+            </div>
+          </div>
+          <div class="caesar__sticker" data-caesar-sticker aria-hidden="true">
+            <span><b data-sticker-regular>11</b>₼ YOX</span>
+            <strong><span data-sticker-timer>3.04</span>₼</strong>
+          </div>
+          <div class="caesar__badge" aria-hidden="true">
+            <svg viewBox="0 0 200 200">
+              <defs><path id="badge-path" d="M100 100m-78 0a78 78 0 1 1 156 0a78 78 0 1 1-156 0"/></defs>
+              <circle cx="100" cy="100" r="98" class="badge__bg"/>
+              <text><textPath href="#badge-path" textLength="480" lengthAdjust="spacing" data-cms="caesar.badge" data-cms-label="Sezar: dairəvi nişan yazısı">ŞƏFFAF QİYMƏT • REAL RƏQƏMLƏR •</textPath></text>
+              <g transform="translate(76 76)"><use href="#i-clock" width="48" height="48" class="badge__icon"/></g>
+            </svg>
+          </div>
+        </figure>
+        <div class="caesar__copy">
+          <p class="eyebrow eyebrow--dark" data-cms="caesar.eyebrow" data-cms-label="Sezar: kiçik yazı">Real rəqəmlər</p>
+          <h2 class="h2" data-cms="caesar.title" data-cms-kind="rich" data-cms-label="Sezar: başlıq">Bir sezar salatı.<br><em class="script">İki fərqli hesab.</em></h2>
+          <div class="compare">
+            <div class="compare__row compare__row--was">
+              <span class="compare__label" data-cms="caesar.labelWas" data-cms-label="Sezar: "Adi qiymət" yazısı">Adi qiymət</span>
+              <span class="compare__value"><span class="strike" data-caesar-regular>11.00</span>₼</span>
+            </div>
+            <div class="compare__row compare__row--now">
+              <span class="compare__label" data-cms="caesar.labelNow" data-cms-label="Sezar: "Timer ilə" yazısı">Timer ilə</span>
+              <span class="compare__value"><span data-caesar-timer>3.04</span>₼</span>
+            </div>
+          </div>
+          <p class="caesar__text" data-cms="caesar.text" data-cms-kind="rich" data-cms-label="Sezar: mətn">Bizim qazancımız vaxtdır, boşqabdakı yemək deyil. Bu pulu bir salatdan da qazana bilərdik. <strong>Amma etmirik.</strong></p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Timer hekayəsi (pinned) ===== -->
+    <section class="timer" id="timer" data-theme="dark">
+      <div class="timer__pin" data-timer-pin>
+        <div class="container timer__grid">
+          <div class="timer__left">
+            <p class="eyebrow" data-cms="timer.eyebrow" data-cms-label="Timer: kiçik yazı">Sistem necə işləyir?</p>
+            <h2 class="h1 timer__title" data-cms="timer.title" data-cms-kind="rich" data-cms-label="Timer: başlıq">Saat işləyir,<br><em class="script">sən dincəl.</em></h2>
+            <p class="timer__sub" data-cms="timer.sub" data-cms-label="Timer: alt mətn">Saatın keçməsi burada o qədər də qorxulu deyil. Aşağı sürüşdür: vaxt keçsin, sifarişlər masaya gəlsin, çek özü yazılsın.</p>
+            <div class="stopwatch">
+              <img class="stopwatch__alarm" src="assets/img/alarm-clock.webp" alt="" data-optional>
+              <svg class="stopwatch__svg" viewBox="0 0 400 400" aria-hidden="true">
+                <circle cx="200" cy="200" r="176" class="sw__track"/>
+                <circle cx="200" cy="200" r="176" class="sw__progress" data-sw-progress/>
+                <g class="sw__ticks" data-sw-ticks></g>
+                <g class="sw__hand" data-sw-hand><line x1="200" y1="92" x2="200" y2="46"/><circle cx="200" cy="46" r="8"/></g>
+              </svg>
+              <div class="stopwatch__readout">
+                <span class="stopwatch__time" data-timer-time>00:00</span>
+                <span class="stopwatch__fee"><span data-cms="timer.feeLabel" data-cms-label="Timer: saniyəölçən yazısı">vaxt haqqı</span> <b data-timer-fee>6</b>₼</span>
+              </div>
+              <!-- masaya gələn sifarişlər (PNG) -->
+              <img class="served served--cup" src="assets/img/hero-cup.webp" alt="" data-serve="cappuccino" data-optional>
+              <img class="served served--sandwich" src="assets/img/sandwich.webp" alt="" data-serve="sandwich" data-optional>
+              <img class="served served--latte" src="assets/img/iced-latte.webp" alt="" data-serve="latte" data-optional>
+              <img class="served served--croissant" src="assets/img/croissant.webp" alt="" data-serve="croissant" data-optional>
+            </div>
+          </div>
+
+          <div class="timer__right">
+            <div class="receipt" data-receipt>
+              <div class="receipt__head">
+                <img class="logo-ink logo-ink--green" src="https://cdn.clopos.com/clockcoffee/e3500870-ce5a-4029-92e8-8174d28c667e/original.jpg" alt="" width="54" height="54" data-logo>
+                <div>
+                  <strong data-cms="timer.receiptBrand" data-cms-label="Çek: brend adı">CLOCK &amp; COFFEE</strong>
+                  <span data-cms="timer.receiptNo" data-cms-label="Çek: nömrə sətri">ÇEK № 0612 · Timer rejimi</span>
+                </div>
+              </div>
+              <ol class="receipt__lines" data-receipt-lines></ol>
+              <div class="receipt__totals">
+                <div class="receipt__row receipt__row--total"><span data-cms="timer.totalTimer" data-cms-label="Çek: "Cəmi" sətri">Cəmi (Timer)</span><b data-total-timer>0.00₼</b></div>
+                <div class="receipt__row receipt__row--muted"><span data-cms="timer.totalRegular" data-cms-label="Çek: "Adi menyu ilə" sətri">Adi menyu ilə</span><s data-total-regular>0.00₼</s></div>
+                <div class="receipt__row receipt__row--save"><span data-cms="timer.totalSave" data-cms-label="Çek: "Qənaət" sətri">Qənaət</span><b data-total-save>0.00₼</b></div>
+              </div>
+              <span class="stamp stamp--receipt" data-receipt-stamp data-cms="timer.stamp" data-cms-label="Çek: möhür yazısı">Sərfəli!</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container steps">
+        <article class="step">
+          <span class="step__n">01</span>
+          <h3 data-cms="timer.step1title" data-cms-label="Addım 1: başlıq">Taymeri başladırsan</h3>
+          <p data-cms="timer.step1text" data-cms-kind="rich" data-cms-label="Addım 1: mətn">Gələn kimi saat işə düşür: ilk saat <span data-tariff="first">6</span>₼, sonra hər saat cəmi <span data-tariff="extra">1</span>₼.</p>
+        </article>
+        <article class="step">
+          <span class="step__n">02</span>
+          <h3 data-cms="timer.step2title" data-cms-label="Addım 2: başlıq">İstədiyini seçirsən</h3>
+          <p data-cms="timer.step2text" data-cms-kind="rich" data-cms-label="Addım 2: mətn">Qəhvə, sendviç, salat və ya desert. Seçim çoxdur, tələsməyə ehtiyac yoxdur.</p>
+        </article>
+        <article class="step">
+          <span class="step__n">03</span>
+          <h3 data-cms="timer.step3title" data-cms-label="Addım 3: başlıq">Maya dəyərinə ödəyirsən</h3>
+          <p data-cms="timer.step3text" data-cms-kind="rich" data-cms-label="Addım 3: mətn">Hesab sadədir: vaxt haqqı üstəgəl sifarişlərin maya dəyəri. Vəssalam.</p>
+        </article>
+      </div>
+      <p class="container timer__note" data-cms="timer.note" data-cms-kind="rich" data-cms-label="Timer: aşağıdakı qeyd"><span data-tariff="first">6</span>₼ tarifi 1-ci filial üçündür. Timer istəmirsənsə, adi menyu qiymətləri ilə də sifariş verə bilərsən.</p>
+    </section>
+
+    <!-- ===== Kalkulyator ===== -->
+    <section class="calc parchment" id="hesabla" data-theme="light">
+      <img class="drift drift--latte" src="assets/img/iced-latte.webp" alt="" data-drift data-y="-260" data-r="-16" data-optional>
+      <img class="drift drift--beans-b" src="assets/img/coffee-beans.webp" alt="" data-drift data-y="-380" data-r="160" data-optional>
+      <div class="container calc__grid">
+        <div class="calc__intro">
+          <p class="eyebrow eyebrow--dark" data-cms="calc.eyebrow" data-cms-label="Kalkulyator: kiçik yazı">Kalkulyator</p>
+          <h2 class="h2" data-cms="calc.title" data-cms-kind="rich" data-cms-label="Kalkulyator: başlıq">Öz hesabını<br><em class="script">çıxart.</em></h2>
+          <p data-cms="calc.text" data-cms-label="Kalkulyator: mətn">Neçə saat qalacaqsan, nə sifariş edəcəksən? İki hesabı yan-yana gör.</p>
+        </div>
+        <div class="calc__panel">
+          <div class="calc__hours">
+            <div class="calc__hours-head">
+              <label for="calc-hours" data-cms="calc.hoursLabel" data-cms-label="Kalkulyator: "Vaxt" yazısı">Vaxt</label>
+              <output for="calc-hours" data-hours-out>2 saat</output>
+            </div>
+            <input id="calc-hours" type="range" min="1" max="10" step="1" value="2" data-hours>
+            <div class="calc__scale" aria-hidden="true"><span>1</span><span>5</span><span>10 saat</span></div>
+          </div>
+          <div class="calc__items" data-calc-items>
+            <p class="calc__loading">Menyu yüklənir…</p>
+          </div>
+          <div class="calc__result">
+            <div class="calc__col calc__col--timer">
+              <span data-cms="calc.colTimer" data-cms-label="Kalkulyator: sol sütun başlığı">Timer ilə</span>
+              <b data-calc-timer>0.00₼</b>
+              <small data-calc-timer-note></small>
+            </div>
+            <div class="calc__col calc__col--regular">
+              <span data-cms="calc.colRegular" data-cms-label="Kalkulyator: sağ sütun başlığı">Adi menyu ilə</span>
+              <b data-calc-regular>0.00₼</b>
+              <small data-cms="calc.colRegularNote" data-cms-label="Kalkulyator: sağ sütun qeydi">vaxt haqqı yoxdur</small>
+            </div>
+            <p class="calc__verdict" data-calc-verdict aria-live="polite"></p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Menyu ===== -->
+    <section class="menu" id="menyu" data-theme="dark">
+      <img class="drift drift--menu-croissant" src="assets/img/croissant.webp" alt="" data-drift data-y="-240" data-r="-34" data-x="-60" data-optional>
+      <img class="drift drift--menu-branch" src="assets/img/coffee-branch.webp" alt="" data-drift data-y="-300" data-r="40" data-optional>
+      <div class="container">
+        <header class="menu__head">
+          <div>
+            <p class="eyebrow" data-cms="menu.eyebrow" data-cms-label="Menyu: kiçik yazı">Menyu</p>
+            <h2 class="h1" data-cms="menu.title" data-cms-kind="rich" data-cms-label="Menyu: başlıq">İnanmayacaqsınız,<br><em class="script">amma biz bunu edirik!</em></h2>
+          </div>
+          <div class="pricetoggle" role="group" aria-label="Qiymət növü" data-price-toggle>
+            <button type="button" aria-pressed="true" data-mode="timer" data-cms="menu.modeTimer" data-cms-label="Menyu: "Timer qiyməti" düyməsi">Timer qiyməti</button>
+            <button type="button" aria-pressed="false" data-mode="regular" data-cms="menu.modeRegular" data-cms-label="Menyu: "Adi qiymət" düyməsi">Adi qiymət</button>
+            <span class="pricetoggle__thumb" aria-hidden="true"></span>
+          </div>
+        </header>
+
+        <div class="menu__tabs" role="tablist" aria-label="Menyu kateqoriyaları" data-menu-tabs></div>
+        <div class="menu__board">
+          <div class="menu__grid" data-menu-grid aria-live="polite">
+            <p class="menu__loading">Menyu yüklənir…</p>
+          </div>
+        </div>
+
+        <footer class="menu__foot">
+          <p class="menu__updated" data-menu-updated>Qiymətlər elektron menyudan avtomatik yenilənir</p>
+          <a class="btn btn--ghost" href="https://clockcoffee.clopos.menu/az/1/products" target="_blank" rel="noopener" data-magnetic data-cms="contact.menuUrl" data-cms-kind="url" data-cms-label="Elektron menyu linki"><span data-cms="menu.fullBtn" data-cms-label="Menyu: "Tam menyu" düyməsi">Tam menyu</span> <svg class="icon"><use href="#i-arrow-ur"/></svg></a>
+        </footer>
+      </div>
+    </section>
+
+    <!-- ===== Məkan: Coffee • Work • Meet ===== -->
+    <section class="space" id="mekan" data-theme="light">
+      <div class="container space__head">
+        <p class="eyebrow eyebrow--dark">Məkan</p>
+        <h2 class="h1 space__title" data-cms="space.title" data-cms-kind="rich" data-cms-label="Məkan: başlıq">Coffee <span>•</span> Work <span>•</span> Meet</h2>
+      </div>
+
+      <div class="container stack" data-stack>
+        <article class="stack__card stack__card--coffee">
+          <div class="stack__media stack__media--art" aria-hidden="true">
+            <img class="stack__art stack__art--cup" src="assets/img/hero-cup.webp" alt="" data-optional>
+            <img class="stack__art stack__art--latte" src="assets/img/iced-latte.webp" alt="" data-optional>
+            <img class="stack__art stack__art--beans" src="assets/img/coffee-beans.webp" alt="" data-optional>
+            <img class="stack__art stack__art--branch" src="assets/img/coffee-branch.webp" alt="" data-optional>
+          </div>
+          <div class="stack__content">
+            <span class="stack__n">01</span>
+            <h3 data-cms="space.card1title" data-cms-label="Məkan kartı 1: başlıq">Coffee.</h3>
+            <p data-cms="space.card1text" data-cms-label="Məkan kartı 1: mətn">Braziliya qəhvəsindən espresso, kapuçino, raf və isti günlər üçün soyuq içkilər.</p>
+          </div>
+          <span class="stack__shade" aria-hidden="true"></span>
+        </article>
+        <article class="stack__card stack__card--work">
+          <div class="stack__media"><img src="assets/img/work.webp" alt="Kafe masasında noutbuk və soyuq latte" loading="lazy" data-optional></div>
+          <div class="stack__content">
+            <span class="stack__n">02</span>
+            <h3 data-cms="space.card2title" data-cms-label="Məkan kartı 2: başlıq">Work.</h3>
+            <p data-cms="space.card2text" data-cms-label="Məkan kartı 2: mətn">Sakit atmosfer, rahat masa. Noutbukunu aç, işini gör, saat sənin tərəfindədir.</p>
+          </div>
+          <span class="stack__shade" aria-hidden="true"></span>
+        </article>
+        <article class="stack__card stack__card--meet">
+          <div class="stack__media"><img src="assets/img/meet.webp" alt="Masa arxasında qəhvə içib söhbət edən dostlar" loading="lazy" data-optional></div>
+          <div class="stack__content">
+            <span class="stack__n">03</span>
+            <h3 data-cms="space.card3title" data-cms-label="Məkan kartı 3: başlıq">Meet.</h3>
+            <p data-cms="space.card3text" data-cms-label="Məkan kartı 3: mətn">Görüş üçün məkan axtarırsan? Sakit masa, isti qəhvə və tələsmədən söhbət.</p>
+          </div>
+        </article>
+      </div>
+
+      <p class="space__quote script" data-speed="-0.15" data-cms="space.quote" data-cms-label="Məkan: sitat">Qəhvə insanları birləşdirir.</p>
+    </section>
+
+    <!-- ===== Filiallar ===== -->
+    <section class="branches parchment" id="filiallar" data-theme="light">
+      <img class="drift drift--branches" src="assets/img/coffee-branch.webp" alt="" data-drift data-y="-200" data-r="-24" data-x="-30" data-optional>
+      <div class="container">
+        <header class="branches__head">
+          <h2 class="branches__title" data-cms="branches.title" data-cms-kind="rich" data-cms-label="Filiallar: başlıq"><span class="script">Artıq</span> 2 ünvanda!</h2>
+          <p class="branches__hours"><svg class="icon"><use href="#i-clock"/></svg> <span data-cms="branches.hours" data-cms-kind="rich" data-cms-label="Filiallar: iş saatı sətri">Hər gün <span data-open-hours>08:00-dən 23:00-dək</span></span></p>
+        </header>
+
+        <div class="branches__map" aria-hidden="true">
+          <svg viewBox="0 0 1200 320" preserveAspectRatio="xMidYMid meet">
+            <defs>
+              <mask id="route-mask" maskUnits="userSpaceOnUse" x="0" y="0" width="1200" height="320">
+                <path d="M250 190 C 420 60, 560 300, 720 180 S 900 120, 960 160" fill="none" stroke="#fff" stroke-width="12" stroke-linecap="round" data-route-mask/>
+              </mask>
+            </defs>
+            <path class="map__street" d="M-20 250 C 200 230, 330 120, 560 150 S 900 260, 1220 90"/>
+            <path class="map__street" d="M120 -10 C 160 90, 170 200, 260 330"/>
+            <path class="map__street" d="M760 -10 C 720 110, 800 190, 760 330"/>
+            <path class="map__street map__street--thin" d="M-20 80 C 300 110, 520 40, 820 70 S 1100 30, 1220 40"/>
+            <path class="map__route" d="M250 190 C 420 60, 560 300, 720 180 S 900 120, 960 160" mask="url(#route-mask)"/>
+            <g class="map__pin" data-pin transform="translate(250 190)"><g class="map__pin-in"><circle r="16"/><circle r="6" class="map__dot"/></g></g>
+            <g class="map__pin map__pin--2" data-pin transform="translate(960 160)"><g class="map__pin-in"><circle r="16"/><circle r="6" class="map__dot"/></g></g>
+            <text class="map__label" x="250" y="238" text-anchor="middle" data-cms="branches.map1" data-cms-label="Xəritə: 1-ci nişan yazısı">Abbas Səhhət 45</text>
+            <text class="map__label" x="960" y="208" text-anchor="middle" data-cms="branches.map2" data-cms-label="Xəritə: 2-ci nişan yazısı">Xətai · Xocalı pr. 29</text>
+          </svg>
+        </div>
+
+        <div class="branches__grid">
+          <article class="branch">
+            <span class="branch__tag" data-cms="branch1.tag" data-cms-label="1-ci filial: etiket">1-ci filial</span>
+            <h3 data-cms="branch1.name" data-cms-label="1-ci filial: ad">Abbas Səhhət 45</h3>
+            <p class="branch__meta"><svg class="icon"><use href="#i-pin"/></svg><span data-cms="branch1.address" data-cms-label="1-ci filial: ünvan">UNEC-in 4-cü korpusunun qarşısı, Bakı</span></p>
+            <p class="branch__meta"><svg class="icon"><use href="#i-phone"/></svg><a href="tel:+994504157207" data-cms="contact.phone1" data-cms-kind="tel" data-cms-label="Telefon 1 (əsas filial)">050 415 72 07</a><span aria-hidden="true">·</span><a href="tel:+994102157207" data-cms="contact.phone2" data-cms-kind="tel" data-cms-label="Telefon 2 (əsas filial)">010 215 72 07</a></p>
+            <div class="branch__actions">
+              <a class="btn btn--dark btn--sm" href="https://www.google.com/maps/search/?api=1&amp;query=Abbas%20S%C9%99hh%C9%99t%2045%2C%20Bak%C4%B1" target="_blank" rel="noopener" data-magnetic data-cms="contact.map1" data-cms-kind="url" data-cms-label="1-ci filial: xəritə linki"><span data-cms="branches.mapBtn" data-cms-label="Filiallar: xəritə düyməsi">Xəritədə aç</span> <svg class="icon"><use href="#i-arrow-ur"/></svg></a>
+              <a class="btn btn--line btn--sm" href="https://wa.me/994504157207" target="_blank" rel="noopener" data-cms="contact.waMain" data-cms-kind="waurl" data-cms-label="WhatsApp nömrəsi (əsas filial)"><span data-cms="branches.waBtn" data-cms-label="Filiallar: WhatsApp düyməsi">WhatsApp</span></a>
+            </div>
+          </article>
+          <article class="branch branch--new">
+            <span class="branch__tag" data-cms="branch2.tag" data-cms-label="2-ci filial: etiket">Yeni · Xətai filialı</span>
+            <h3 data-cms="branch2.name" data-cms-label="2-ci filial: ad">Xocalı prospekti 29</h3>
+            <p class="branch__meta"><svg class="icon"><use href="#i-pin"/></svg><span data-cms="branch2.address" data-cms-label="2-ci filial: ünvan">Dəmirçi Tower-in yanı, Bakı</span></p>
+            <p class="branch__meta"><svg class="icon"><use href="#i-metro"/></svg><span data-cms="branch2.metro" data-cms-label="2-ci filial: metro qeydi">Xətai metrosundan cəmi 3 dəqiqə</span></p>
+            <p class="branch__meta"><svg class="icon"><use href="#i-whatsapp"/></svg><a href="https://wa.me/994777111516" target="_blank" rel="noopener" data-cms="contact.waXetai" data-cms-kind="wa" data-cms-label="WhatsApp nömrəsi (Xətai filialı)">077 711 15 16</a></p>
+            <div class="branch__actions">
+              <a class="btn btn--dark btn--sm" href="https://www.google.com/maps/search/?api=1&amp;query=Xocal%C4%B1%20prospekti%2029%2C%20Bak%C4%B1" target="_blank" rel="noopener" data-magnetic data-cms="contact.map2" data-cms-kind="url" data-cms-label="2-ci filial: xəritə linki"><span data-cms="branches.mapBtn" data-cms-label="Filiallar: xəritə düyməsi">Xəritədə aç</span> <svg class="icon"><use href="#i-arrow-ur"/></svg></a>
+              <a class="btn btn--line btn--sm" href="https://wa.me/994777111516" target="_blank" rel="noopener" data-cms="contact.waXetai" data-cms-kind="waurl" data-cms-label="WhatsApp nömrəsi (Xətai filialı)"><span data-cms="branches.waBtn" data-cms-label="Filiallar: WhatsApp düyməsi">WhatsApp</span></a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== CTA: zəng çalan saat ===== -->
+    <section class="cta" data-theme="dark">
+      <div class="container cta__inner">
+        <div class="cta__alarm" data-cta-alarm aria-hidden="true">
+          <svg class="cta__waves" viewBox="0 0 520 240">
+            <g class="cta__wave cta__wave--l"><path d="M150 60 Q110 120 150 180"/><path d="M118 38 Q62 120 118 202"/><path d="M86 16 Q14 120 86 224"/></g>
+            <g class="cta__wave cta__wave--r"><path d="M370 60 Q410 120 370 180"/><path d="M402 38 Q458 120 402 202"/><path d="M434 16 Q506 120 434 224"/></g>
+          </svg>
+          <img src="assets/img/alarm-clock.webp" alt="" data-optional>
+        </div>
+        <p class="eyebrow"><span><span data-cms="cta.igHandle" data-cms-label="CTA: Instagram adı">@clockcoffee__ · </span><b data-count="28.5" data-cms="cta.followers" data-cms-kind="count" data-cms-label="CTA: izləyici sayı">28.5</b><span data-cms="cta.followersUnit" data-cms-label="CTA: izləyici yazısı">K izləyici</span></span></p>
+        <h2 class="cta__title"><span class="line"><span class="line__in" data-cms="cta.title1" data-cms-kind="rich" data-cms-label="CTA başlıq: 1-ci sətir">Timer-i</span></span><span class="line"><span class="line__in" data-cms="cta.title2" data-cms-kind="rich" data-cms-label="CTA başlıq: 2-ci sətir"><em class="script">başlat.</em></span></span></h2>
+        <div class="cta__actions">
+          <a class="btn btn--lime btn--xl" href="https://wa.me/994504157207" target="_blank" rel="noopener" data-magnetic data-cms="contact.waMain" data-cms-kind="waurl" data-cms-label="WhatsApp nömrəsi (əsas filial)"><svg class="icon"><use href="#i-whatsapp"/></svg><span data-cms="cta.btn1" data-cms-label="CTA: 1-ci düymə">WhatsApp-da yaz</span></a>
+          <a class="btn btn--ghost btn--xl" href="https://www.instagram.com/clockcoffee__/" target="_blank" rel="noopener" data-magnetic data-cms="contact.instagram" data-cms-kind="url" data-cms-label="Instagram ünvanı"><svg class="icon"><use href="#i-insta"/></svg><span data-cms="cta.btn2" data-cms-label="CTA: 2-ci düymə">Instagram-da izlə</span></a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===== Footer ===== -->
+  <footer class="footer" data-theme="dark">
+    <div class="container footer__grid">
+      <div class="footer__brand">
+        <img class="logo-ink logo-ink--lime" src="https://cdn.clopos.com/clockcoffee/e3500870-ce5a-4029-92e8-8174d28c667e/original.jpg" alt="Clock &amp; Coffee loqosu" width="120" height="118" data-logo>
+        <p data-cms="footer.brand" data-cms-kind="rich" data-cms-label="Footer: brend mətni">Timer konseptli kofe məkanı.<br>Hər gün <span data-open-hours>08:00-dən 23:00-dək</span>.</p>
+      </div>
+      <div class="footer__col">
+        <h4 data-cms="footer.col1title" data-cms-label="Footer: 1-ci sütun başlığı">Filiallar</h4>
+        <p data-cms="footer.branch1" data-cms-kind="rich" data-cms-label="Footer: 1-ci filial">Abbas Səhhət 45<br><small>UNEC-in 4-cü korpusunun qarşısı</small></p>
+        <p data-cms="footer.branch2" data-cms-kind="rich" data-cms-label="Footer: 2-ci filial">Xocalı prospekti 29<br><small>Dəmirçi Tower-in yanı, Xətai</small></p>
+      </div>
+      <div class="footer__col">
+        <h4 data-cms="footer.col2title" data-cms-label="Footer: 2-ci sütun başlığı">Əlaqə</h4>
+        <p><a href="tel:+994504157207" data-cms="contact.phone1" data-cms-kind="tel" data-cms-label="Telefon 1 (əsas filial)">050 415 72 07</a><br><a href="tel:+994102157207" data-cms="contact.phone2" data-cms-kind="tel" data-cms-label="Telefon 2 (əsas filial)">010 215 72 07</a><br><a href="https://wa.me/994777111516" target="_blank" rel="noopener" data-cms="contact.waXetai" data-cms-kind="wa" data-cms-label="WhatsApp nömrəsi (Xətai filialı)">077 711 15 16</a> <small data-cms="footer.waNote" data-cms-label="Footer: WhatsApp qeydi">(Xətai)</small></p>
+      </div>
+      <div class="footer__col">
+        <h4 data-cms="footer.col3title" data-cms-label="Footer: 3-cü sütun başlığı">Sosial</h4>
+        <p><a href="https://www.instagram.com/clockcoffee__/" target="_blank" rel="noopener" data-cms="contact.instagram" data-cms-kind="url" data-cms-label="Instagram ünvanı"><span data-cms="footer.igText" data-cms-label="Footer: Instagram yazısı">Instagram</span></a><br><a href="https://clockcoffee.clopos.menu/az/1/products" target="_blank" rel="noopener" data-cms="contact.menuUrl" data-cms-kind="url" data-cms-label="Elektron menyu linki"><span data-cms="footer.menuText" data-cms-label="Footer: elektron menyu yazısı">Elektron menyu</span></a></p>
+      </div>
+    </div>
+    <div class="container footer__bottom">
+      <span data-cms="footer.copyright" data-cms-kind="rich" data-cms-label="Footer: müəllif hüququ sətri">© <span data-year>2026</span> Clock &amp; Coffee. Bütün hüquqlar qorunur.</span>
+      <span>Qiymətlər elektron menyudan avtomatik yenilənir · İkonlar: <a href="https://iconly.pro" target="_blank" rel="noopener">Iconly</a></span>
+    </div>
+    <div class="footer__giant" aria-hidden="true" data-cms="footer.giant" data-cms-label="Footer: nəhəng yazı">Clock&amp;Coffee</div>
+  </footer>
+
+  <button class="progress-clock" type="button" aria-label="Yuxarı qayıt" data-progress-clock>
+    <svg viewBox="0 0 48 48" aria-hidden="true">
+      <circle cx="24" cy="24" r="21" class="pc__face"/>
+      <circle cx="24" cy="24" r="21" class="pc__ring" data-pc-ring/>
+      <line x1="24" y1="24" x2="24" y2="10" class="pc__hand" data-pc-hand/>
+      <circle cx="24" cy="24" r="2.6" class="pc__pin"/>
+    </svg>
+  </button>
+
+  <!-- Mobil alt naviqasiya: liquid glass, Iconly ikonları -->
+  <nav class="tabbar" aria-label="Mobil naviqasiya" data-tabbar>
+    <span class="tabbar__blob" aria-hidden="true" data-tabbar-blob></span>
+    <span class="tabbar__rim" aria-hidden="true"></span>
+    <a class="tabbar__item" href="#top" data-tab-target="top">
+      <span class="tabbar__icon" aria-hidden="true"><svg class="i-l"><use href="#i-home"/></svg><svg class="i-b"><use href="#i-home-b"/></svg></span>
+      <span class="tabbar__label">Əsas</span>
+    </a>
+    <a class="tabbar__item" href="#timer" data-tab-target="timer" data-tab-also="hesabla">
+      <span class="tabbar__icon" aria-hidden="true"><svg class="i-l"><use href="#i-clock"/></svg><svg class="i-b"><use href="#i-time-b"/></svg></span>
+      <span class="tabbar__label">Timer</span>
+    </a>
+    <a class="tabbar__item" href="#menyu" data-tab-target="menyu">
+      <span class="tabbar__icon" aria-hidden="true"><svg class="i-l"><use href="#i-paper"/></svg><svg class="i-b"><use href="#i-paper-b"/></svg></span>
+      <span class="tabbar__label">Menyu</span>
+    </a>
+    <a class="tabbar__item" href="#filiallar" data-tab-target="filiallar">
+      <span class="tabbar__icon" aria-hidden="true"><svg class="i-l"><use href="#i-pin"/></svg><svg class="i-b"><use href="#i-pin-b"/></svg></span>
+      <span class="tabbar__label">Ünvan</span>
+    </a>
+    <a class="tabbar__item tabbar__item--wa" href="https://wa.me/994504157207" target="_blank" rel="noopener">
+      <span class="tabbar__icon" aria-hidden="true"><svg class="i-l"><use href="#i-whatsapp"/></svg></span>
+      <span class="tabbar__label">Yaz</span>
+    </a>
+  </nav>
+
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.15.0/dist/gsap.min.js" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.15.0/dist/ScrollTrigger.min.js" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/lenis@1.3.26/dist/lenis.min.js" defer></script>
+  <script type="module" src="assets/js/main.js"></script>
+</body>
+</html>
